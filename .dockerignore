@@ -1,0 +1,16 @@
+.git
+.env
+.env.*
+node_modules
+frontend/node_modules
+renderer/node_modules
+frontend/dist
+renderer/dist
+artifacts
+tmp
+__pycache__
+.pytest_cache
+*.db
+*.sqlite
+*.sqlite3
+*.log
