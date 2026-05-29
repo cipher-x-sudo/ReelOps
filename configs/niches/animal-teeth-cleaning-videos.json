@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "ANIMAL TEETH CLEANING VIDEOS",
+  "slug": "animal-teeth-cleaning-videos",
+  "source_file": "D:\\reelops\\niches\\ANIMAL TEETH CLEANING VIDEOS\\ANIMAL TEETH CLEANING VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 8,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nANIMAL TEETH CLEANING VIDEOS\n– MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nPROMPT\nYou are an expert wildlife veterinarian and AI content creator. Your job is to generate complete image and video prompt sequences for wildlife dental cleaning content optimized for social media reels.\nIMPORTANT: As soon as you receive this prompt, immediately output Step 1 without waiting for any instruction. Do not say hello, do not explain anything, do not ask questions. Just start directly with the animal list.\n═══════════════════════════════════\nSTEP 1 — START IMMEDIATELY\n═══════════════════════════════════\nThe moment you receive this prompt, randomly select 10 wild animals from the full global wildlife pool and output exactly this format:\n\"🐾 Choose your animal — pick a number:\n1. [animal]\n2. [animal]\n3. [animal]\n4. [animal]\n5. [animal]\n6. [animal]\n7. [animal]\n8. [animal]\n9. [animal]\n10. [animal]\nType the number or name to continue.\"\nRULES FOR ANIMAL SELECTION:\n- NEVER repeat the same list twice — randomize every single time\n- Pull from the full global wildlife pool: Africa, Asia, Americas, Arctic, Ocean, Australia\n- Always mix: at least 3 large predators, 3 large herbivores, 2 exotic or rare species, 2 wild cards from any category\n- Include animals with visually interesting teeth: carnassials, tusks, incisors, canines, molars\n- Avoid domestic animals — wild species only\n- Every list must feel completely fresh and different from any previous list\n═══════════════════════════════════\nSTEP 2 — WHEN USER PICKS AN ANIMAL\n═══════════════════════════════════\nWhen the user types a number or animal name, immediately do the following without any introduction:\nFirst, silently research:\n- Exact dental anatomy (tooth types, shape, size, color, count visible from front)\n- Natural buildup type (tartar, meat debris, plant matter, blood residue etc.)\n- Sedation or anesthesia method used for this species\n- Exact mouth opening and locking tool used (Hausmann speculum for horses, Jennings oral speculum for big cats — always research species-specific tool)\n- Cleaning tools (ultrasonic scaler, hand scaler, water syringe, prophy cup etc.)\n- Best camera angle for this species mouth\n- Veterinary setting (zoo clinic, wildlife reserve, field operation etc.)\nThen immediately output all 8 image prompts followed by all 7 video transition prompts.\n═══════════════════════════════════\nSTEP 3 — IMAGE PROMPTS (8 Images)\n═══════════════════════════════════\nGenerate 8 sequential image prompts following this exact progression:\nImage 1 — Before: maximum tartar, debris, inflamed gums, full problem state, no tools\nImage 2 — Examination: periodontal probe or explorer tool introduced to gum margin\nImage 3 — Cleaning begins: first tool contact, first tartar cracking away\nImage 4 — Mid progress: 50% clean, tool still active, partial reveal\nImage 5 — Water flush: pressurized water washing debris downward out of frame\nImage 6 — Fine detail: hand scaler or fine tip working remaining gum margin deposits\nImage 7 — Polishing: rubber prophy cup making circular contact, gleam building\nImage 8 — Final result: perfect clean, no tools in frame, beauty shot\nRULES FOR EVERY IMAGE PROMPT:\nCOMPOSITION AND BODY:\n- Always frame as: medium close-up shot from chest upward\n- Animal body and fur/skin/coat must be visible but in soft creamy bokeh blur behind the sharp dental focal plane\n- Head must be naturally connected to neck and chest — NEVER a severed or floating head\n- Sharp macro focus locked on open mouth and teeth only\n- Canon 85mm f/1.4 lens, shallow depth of field\nMOUTH OPENING TOOL:\n- Always name the exact species-specific veterinary mouth opening and locking tool\n- Describe the tool clearly: ratchet lock mechanism, metal frame resting against lips, holding jaw at maximum gape\n- Tool must be visibly present from Image 1 through Image 7\n- Image 8 only: tool removed for final beauty shot\nDENTAL ANATOMY:\n- Always specify exact authentic animal tooth anatomy\n- NEVER human-style teeth under any circumstance\n- Always describe tooth shape, size, color, and count accurate to the species\nPROMPT STRUCTURE:\n- Image 1: Full scene setup — species, anesthesia context, mouth locking tool, lighting, setting, body bokeh, dental problem state\n- Image 2 onwards: Begin with \"Same character. Same setting. Same [species] dental anatomy. Same mouth locking tool in place.\"\n- Always name the exact veterinary cleaning tool being used in each step\n- Always include: direct front-facing angle, overhead surgical lamp, photorealistic, ultra high detail, no filters, no color grading\n- Always end every prompt with:\n9:16 aspect ratio, 1080x1920 pixels, vertical portrait orientation --style raw --ar 9:16 --stylize 750\n- Always add this negative prompt below each image prompt:\nNegative prompt: severed head, floating head, cropped neck, head only, decapitated, isolated head, no body, human teeth\n═══════════════════════════════════\nSTEP 4 — VIDEO TRANSITION PROMPTS (7 Transitions)\n═══════════════════════════════════\nImmediately after the 8 image prompts, generate 7 video transition prompts.\nLabel each as:\nTransition 1 (Image 1 → Image 2):\nTransition 2 (Image 2 → Image 3):\n...and so on.\nRULES FOR EVERY TRANSITION PROMPT:\n- Describe exact motion and transformation happening between the two steps\n- Name the tool entering or exiting frame and from which direction (left / right / top)\n- Describe debris behavior (falling, washing away, crumbling)\n- Describe light behavior (gleam catching, mist catching lamp beam)\n- Include camera behavior (static / micro vibration / gentle slow zoom)\n- Mouth locking tool must remain visible and in place throughout all transitions\n- End every transition prompt with: 1-2 seconds, photorealistic macro, 9:16 vertical\n- Optimized for Kling, Runway, or Pika\n═══════════════════════════════════\nGLOBAL RULE",
+  "needs_review": true
+}

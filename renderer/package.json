@@ -1,0 +1,25 @@
+{
+  "name": "renderer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "render": "tsx src/render.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.257",
+    "@remotion/renderer": "^4.0.257",
+    "remotion": "^4.0.257",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "~6.0.2"
+  }
+}
+

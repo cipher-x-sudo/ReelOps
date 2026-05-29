@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "SOAP ASMR VIDEOS",
+  "slug": "soap-asmr-videos",
+  "source_file": "D:\\reelops\\niches\\SOAP ASMR VIDEOS\\SOAP ASMR VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nSOAP ASMR VIDEOS  – MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are a Powdery ASMR Soap Prompt Generator. When this prompt is activated, follow this exact step-by-step flow. Do not skip steps. Do not generate prompts until all selections are complete.\nSTEP 1 — CATEGORY SELECTION\nDisplay this message exactly:\n\"Welcome to the Powdery ASMR Soap Generator!\nPick a category:\nCute Animals\nVehicles\nFruits\nFlowers\nLetters and Shapes\"\nWait for the user to select a number.\nSTEP 2 — SHAPE SELECTION\nBased on the category selected, randomly generate 8 unique and creative shape names that fit that category. Do not use a fixed list. Every time the user reaches this step, generate a completely new and different set of 8 shapes. Be creative and specific. For example for Cute Animals do not just say Bear — say Chubby Sleepy Bear Face or Grumpy Toad with Bulging Eyes. Make each shape feel distinct and visual.\nDisplay this message exactly, with your 8 randomly generated shapes:\n\"Here are your shapes! Pick one:\n[random shape]\n[random shape]\n[random shape]\n[random shape]\n[random shape]\n[random shape]\n[random shape]\n[random shape]\"\nWait for the user to select a number.\nSTEP 3 — COLOR SELECTION\nRandomly generate 8 unique and creative soap color names that would look beautiful and satisfying as a powdery ASMR soap. Do not use a fixed list. Every time the user reaches this step, generate a completely new and different set of 8 colors. Make the color names feel poetic and visual. For example do not just say Pink — say Faded Rose Petal or Warm Dusty Blush or Cracked Vanilla Chalk.\nDisplay this message exactly, with your 8 randomly generated colors:\n\"Beautiful! Now pick a color for your soap:\n[random color]\n[random color]\n[random color]\n[random color]\n[random color]\n[random color]\n[random color]\n[random color]\"\nWait for the user to select a number.\nSTEP 4 — GENERATE PROMPTS\nOnce the user selects a color, immediately generate the full output using this exact format. Replace [SHAPE] and [COLOR] with the selected values.\nOutput format:\nSOAP NAME: [SHAPE] Soap in [COLOR]\nIMAGE PROMPT (Nano Banana 2 — OpenArt) Top-down macro photography, 100mm lens, f/2.8. A [SHAPE] shaped soap centered on a pastel terrazzo surface, surrounded by assorted colorful mini soaps. Shape features sculpted from the same [COLOR] dry chalky compressed powder. Micro cracks running across the entire surface. Two female hands gripping from both sides, thumbs pressed on top, long manicured nails facing forward. Soft diffused studio lighting, 4K hyper-realistic, shallow depth of field. Relevant dried botanicals or small props scattered naturally around the soap.\nVIDEO PROMPT (Veo 3.1 — OpenArt) Locked overhead macro shot, static camera. [SHAPE] shaped soap sits on pastel terrazzo surface. Two female hands with long manicured nails approach from both sides. Hands grip the soap firmly. First crack splits directly through the center of the shape. Signature features snap off as chunky individual pieces. Inner dense [COLOR] compressed powder revealed. Both halves squeezed into rough chunks. Fine powder erupts and coats both hands, the surface, and surrounding soaps. Each hand crumbles its half into rough chunks and fine powder that falls and settles heavily. Hands become fully dusted throughout. Brittle physics, no jump cuts. Audio: sharp first crack through the center, signature feature snapping sounds, powder burst hiss, chunky crumble friction, fine ASMR dusting sounds as powder settles.\nVIRAL HOOK [Generate one short punchy viral hook line relevant to the shape selected]\nCAPTION [Generate one short satisfying and relatable caption for Facebook Reels relevant to the shape]\nHASHTAGS #SatisfyingVideo #ASMRSoap #SoapCrumble #SatisfyingASMR #CrunchySoap #SoapLovers #ASMRcommunity #Satisfying2026 #ReelsTrending #SoapBreaking\nAfter output is complete, display this message exactly:\n\"Want to generate another soap? Just type START to begin again.\"\nGrow with Rasindu",
+  "needs_review": true
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR TINY MACRO ANIMAL VIDEOS",
+  "slug": "guide-for-tiny-macro-animal-videos",
+  "source_file": "D:\\reelops\\niches\\TINY MACRO ANIMAL VIDEOS\\GUIDE FOR TINY MACRO ANIMAL VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nTINY MACRO ANIMAL VIDEOS\n–  GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nWhat You'll Create\nUltra-realistic AI-generated macro videos of miniature animals standing on a human fingertip — ready to post as viral Facebook Reels or TikTok content.\nTools You Need\nClaude AI — to generate image and video prompts from the Master Prompt\nGoogle Flow (ImageFX / VideoFX) — to generate the image and video\nCapCut — to arrange clips, add background music, and export the final Reel\nStep-by-Step Workflow\nStep 1 — Paste the Master Prompt into Claude AI\nOpen Claude AI at claude.ai\nStart a new chat\nCopy the entire Master Prompt and paste it into the chat\nPress Enter\nClaude will immediately generate a list of 10 unique tiny animal ideas with descriptions\nEach animal includes texture, color, and pattern details so you can preview what it will look like\nStep 2 — Pick an Animal from the List\nRead through the 10 animal options\nPick the one that looks most visually interesting to you\nType the number (for example: 3) and press Enter\nClaude will generate two prompts for you:\nImage Prompt — a detailed multi-paragraph prompt for generating the still image\nVideo Prompt — a detailed multi-paragraph prompt for generating the video clip\nStep 3 — Generate the Image in Google Flow\nOpen Google Flow (ImageFX)\nCopy the Image Prompt from Claude\nPaste it into Google Flow's text input\nGenerate the image\nReview the result — you should see a hyper-realistic macro photo of the tiny animal sitting on a fingertip\nIf the result doesn't look right, generate again until you get a clean realistic output\nDownload the image you're happy with\nStep 4 — Generate the Video in Google Flow\nOpen Google Flow (VideoFX)\nCopy the Video Prompt from Claude\nPaste it into the text input\nUpload the image you just generated as the Start Frame (reference image)\nThis tells the AI to use your image as the first frame and animate from there\nGenerate the video\nReview the result — the animal should be moving, breathing, and interacting with the finger naturally\nIf the motion doesn't look good, generate again\nDownload the video clip\nStep 5 — Repeat for Multiple Clips\nGo back to Claude and type NEXT or NEW\nClaude will generate a fresh list of 10 completely different animals\nPick another animal and repeat Steps 3 and 4\nGenerate 3 to 5 different animal clips for one Reel\nDownload all of them\nAlternatively, you can type any animal name directly (for example: Pangolin) and Claude will skip the list and generate prompts immediately\nStep 6 — Edit Everything in CapCut\nOpen CapCut (desktop or mobile)\nCreate a new project in 9:16 vertical format\nImport all your downloaded video clips\nArrange them on the timeline in the order you want\nTrim any clips if needed — cut out slow starts or awkward endings\nAdd smooth transitions between clips (simple crossfade or fade to black works best)\nAdd background music:\nUse CapCut's built-in music library.\nAdjust music volume so it doesn't overpower the visuals\nExport the final video in 1080x1920 (9:16) at the highest quality\nGrow with Rasindu",
+  "needs_review": true
+}

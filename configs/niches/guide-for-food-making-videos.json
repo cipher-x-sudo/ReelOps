@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR FOOD MAKING VIDEOS",
+  "slug": "guide-for-food-making-videos",
+  "source_file": "D:\\reelops\\niches\\Food Making Videos\\GUIDE FOR FOOD MAKING VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 4,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nFOOD MAKING VIDEOS\n–  GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nStep 01 — Paste the Master Prompt into Claude\nCopy the Master Prompt and paste it into a new Claude chat. Claude will ask you to type a country name.\nStep 02 — Type a Country Name\nType any country name you want. Examples: Italy, Japan, Mexico, Sri Lanka, Thailand, India, France, Korea. Claude will generate a list of 10 popular dishes from that country.\nStep 03 — Select a Dish\nCopy the name of the dish you want from the list and send it back to Claude. Claude will generate the full prompt package for that dish containing:\n3 Image Prompts (under Preparation Prompts)\nMultiple Video Prompts (under Preparation Prompts and Cooking Prompts)\nStep 04 — Generate 3 Images in Google Flow\nImage 01 — Empty Board:\nCopy the Image 01 prompt\nGo to Google Flow\nPaste the prompt and generate\nDownload the best result\nImage 02 — All Ingredients:\nUpload Image 01 as the reference image\nPaste the Image 02 prompt\nGenerate and download the best result\nImage 03 — Half Ingredients:\nUpload Image 02 as the reference image\nPaste the Image 03 prompt\nGenerate and download the best result\nStep 05 — Generate 2 Ingredient Placement Videos\nVID 01 — First Half Ingredients Placed:\nUpload Image 01 as the Start Frame\nUpload Image 03 as the End Frame\nPaste the VID 01 prompt\nGenerate and download\nVID 02 — Remaining Ingredients Placed:\nUpload Image 03 as the Start Frame\nUpload Image 02 as the End Frame\nPaste the VID 02 prompt\nGenerate and download\nStep 06 — Generate Preparation Videos\nStarting from VID 03, generate each preparation video one by one. For every preparation video:\nUpload Image 01 (empty board) as both the Start Frame and End Frame\nPaste the corresponding video prompt\nGenerate and download\nRepeat this for every preparation video prompt until all are done.\nStep 07 — Generate Cooking Videos\nFirst Cooking Video (BASE):\nDo not upload any Start Frame or End Frame\nSelect the video generation option in Google Flow\nPaste the BASE cooking video prompt\nGenerate the video\nAll Remaining Cooking Videos:\nOnce the BASE video is generated, select the Extend option on that video\nPaste the next cooking video prompt\nGenerate\nOnce that video is generated, select the Extend option on it again\nPaste the next cooking video prompt\nContinue extending forward with each cooking prompt until the last one including the final hero shot\nDownload all cooking videos.\nStep 08 — Edit in CapCut\nOpen CapCut\nAdd all downloaded videos to the timeline in this order:\nVID 01 — First half ingredients placed\nVID 02 — Remaining ingredients placed\nVID 03, 04, 05... — All preparation videos in order\nAll cooking videos in order (BASE + all extends)\nAdd text overlays if needed\nPreview and fix any issues\nExport the final video\nQuick Reference\nGrow with Rasindu",
+  "needs_review": true
+}

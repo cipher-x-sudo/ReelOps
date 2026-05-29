@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR 3D HEALTH VIDEOS",
+  "slug": "guide-for-3d-health-videos",
+  "source_file": "D:\\reelops\\niches\\3D HEALTH VIDEOS\\GUIDE FOR 3D HEALTH VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "scripted_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "scripted_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 8,
+    "video_prompt_count": 8,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\n3D HEALTH VIDEOS\n– GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nThis guide covers the complete production pipeline for creating AI-powered viral health Reels. Each step shows exactly which tool to use and what to do — from generating the script all the way to exporting the final video.\nSTEP 1 — Generate Script and Prompts\nSTEP 2 — Generate Images\nSTEP 3 — Generate Videos\nSTEP 4 — Generate Voice Over\nSTEP 5 — Edit and Export\nFinal Output Specs\nGrow with Rasindu  •  growwithrasindu.nas.io",
+  "needs_review": true
+}

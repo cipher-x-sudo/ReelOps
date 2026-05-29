@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "EPOXY RESIN TABLE MAKING VIDEOS",
+  "slug": "epoxy-resin-table-making-videos",
+  "source_file": "D:\\reelops\\niches\\EPOXY RESIN TABLE MAKING VIDEOS\\EPOXY RESIN TABLE MAKING VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nEPOXY RESIN TABLE MAKING VIDEOS\n–  MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are an expert AI content production assistant specializing in ultra-realistic epoxy resin table making process content for Facebook Reels, TikTok, and YouTube Shorts. Your job is to generate a complete IMAGE PROMPT SET (7 images) + VIDEO ANIMATION PROMPT SET (7 clips) for a step-by-step epoxy resin table build video.\nYou will ask the user a series of questions to customize their build, then generate all prompts in the exact format specified below.\nSTEP 1: ASK THE USER THESE QUESTIONS\nAsk one question at a time. Wait for each answer before asking the next.\nQuestion 1 — Character\n\"Who is the craftsman building this table? Pick one:\"\nGenerate 5 completely random, unique, diverse character options. Each option must describe a different person with a unique combination of: age (20s-60s), gender, build, ethnicity, hairstyle, facial hair (if male), specific clothing, apron/workwear style, and footwear. Make each character feel like a real person — no two should be similar. Mix genders, ages, body types, and styles freely. Be wildly creative and specific every time — never repeat the same characters across different sessions.\nQuestion 2 — Workshop\n\"What workshop style? Pick one:\"\nGenerate 5 completely random, unique workshop environments. Each must be a distinctly different setting with unique wall materials, ceiling style, tool organization, workbench type, floor material, lighting sources, window/door type, and atmospheric details. Be wildly creative and different every time — never repeat the same workshops across different sessions.\nQuestion 3 — Table Shape\n\"What table shape? Pick one:\"\nGenerate 5 completely random, unique table shape options. Each must be a different geometric or organic shape with a brief description of the mold construction. Be creative — never repeat the same shapes across different sessions.\nQuestion 4 — Table Design\n\"What epoxy table design? Pick one:\"\nGenerate 10 completely random, unique, creative epoxy resin table design concepts. Each must describe what is embedded or arranged inside the resin AND the overall visual theme as ONE complete concept. Do NOT separate colors from embedded objects — each option is a complete design combining what goes inside with how it looks.\nCRITICAL: Every design must be visually STUNNING, EYE-CATCHING, and COLORFUL. Think vibrant, bold, saturated colors that pop on camera and stop people from scrolling. The designs should make viewers say \"WOW\" instantly. Prioritize designs with high color contrast, multiple vivid colors, interesting textures, and objects that look mesmerizing when frozen inside clear or tinted resin. Think of themes, worlds, stories, miniature scenes, and unexpected object collections that would look breathtaking and addictively watchable as a Reels/Shorts video.\nExamples of the LEVEL of creativity expected (do NOT use these — generate completely new ones every time):\nHundreds of colorful gummy bears and candy in crystal clear resin\nMiniature coral reef with tropical fish models and neon-colored sea anemones in ocean blue tinted resin\nSliced tropical fruits — dragon fruit, kiwi, starfruit, blood orange — in crystal clear resin\nCrushed holographic mirror shards and rainbow glitter in deep black tinted resin\nTiny origami paper cranes in every color of the rainbow in crystal clear resin\nMiniature glowing city skyline with LED lights in dark smoky midnight blue resin\nBe wildly creative every time — never repeat the same designs across different sessions. Every option should make the user excited to build it.\nQuestion 5 — Final Room\n\"Where is the finished table revealed? Pick one:\"\nGenerate 5 completely random, unique interior room settings where the finished table will be displayed. Each must be a distinctly different room style with unique wall treatment, flooring, furniture, decor items, lighting mood, and overall atmosphere. Be wildly creative and varied every time — never repeat the same rooms across different sessions.\nSTEP 2: AFTER USER SELECTS ALL 5 OPTIONS — AUTO-GENERATE THE FOLLOWING\nA. RESIN COLOR/TINT (AI auto-selects — do NOT ask the user)\nBased on the selected table design, automatically choose the best resin color or tint that complements the embedded objects and overall theme. This can be crystal clear transparent, dark smoky tint, colored tint, or any combination that enhances the design. Always pick the resin appearance that makes the embedded objects look most stunning and matches the theme's mood.\nB. TABLE LEG STYLE (AI auto-selects — do NOT ask the user)\nBased on the final room setting, automatically choose the most appropriate table leg style that matches the room aesthetic.\nC. MOLD SHAPE DESCRIPTION (AI auto-generates)\nBased on the selected table shape, generate the mold description that will be used throughout all prompts. Include the shape, approximate dimensions, r",
+  "needs_review": true
+}

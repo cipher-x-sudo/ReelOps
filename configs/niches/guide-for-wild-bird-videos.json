@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR WILD BIRD VIDEOS",
+  "slug": "guide-for-wild-bird-videos",
+  "source_file": "D:\\reelops\\niches\\WILD BIRD VIDEOS\\GUIDE FOR WILD BIRD VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nBIRD VIDEOS  – GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nSTEP 01 — Master Prompt Setup\nOpen a new Claude AI chat. Copy the master prompt and paste it into the chat. Send it.\nClaude will automatically generate a list of 10 unique exotic bird designs. Each bird will have a completely different color palette, size and special features.\nSTEP 02 — Select Your Bird\nType the number of the bird you want from the list.\nExample: 4\nClaude will then generate 5 environment options suited to that specific bird. Each option will have a different location, time of day and weather condition.\nSTEP 03 — Select Your Environment\nType the letter of the environment you want.\nExample: C\nClaude will generate three prompts:\nImage Prompt — bird perched on branch\nVideo Prompt 01 — landing scene\nVideo Prompt 02 — natural behavior scene\nSTEP 04 — Create Image A\nOpen Google Flow. Go to the image generation section. Paste the Image Prompt and generate.\nDownload the result.\nThis is Image A — bird on branch.\nSTEP 05 — Create Image B\nStart a new generation in Google Flow. Add Image A as the reference image. Type this into the prompt box:\n\"remove bird\"\nGenerate and download the result.\nThis is Image B — empty branch, no bird.\nSTEP 06 — Create Video 01\nGo to the video generation section in Google Flow.\nStart Frame → Add Image B — empty branch\nEnd Frame → Add Image A — bird on branch\nPrompt → Paste Video Prompt 01\nGenerate and download.\nThis is Video 01 — bird flies into frame and lands on branch.\nSTEP 07 — Create Video 02\nStart a new video generation in Google Flow.\nStart Frame → Add Image A — bird on branch\nEnd Frame → Leave empty, add nothing\nPrompt → Paste Video Prompt 02\nGenerate and download.\nThis is Video 02 — bird natural behavior on branch.\nSTEP 08 — Join and Export in CapCut\nOpen CapCut. Create a new project.\nImport Video 01 and Video 02. Place Video 01 first on the timeline, then place Video 02 directly after it.\nCheck the join point — Video 01 ends with the bird on the branch, Video 02 starts with the same bird on the same branch. The join will be seamless.\nExport the final video. Set resolution to 1080p or 4K. Set frame rate to 24fps.",
+  "needs_review": true
+}

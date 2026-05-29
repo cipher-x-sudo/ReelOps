@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "Underwater Discovery videos",
+  "slug": "underwater-discovery-videos",
+  "source_file": "D:\\reelops\\niches\\00. sora2\\Underwater Discovery videos\\Underwater Discovery videos.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nUNDERWATER DISCOVERY VIDEOS  \n- MASTER PROMPT  \n \n1.​ Copy the prompt and paste it into Claude or ChatGPT. \n2.​ Then, choose one option from the generated list, copy it, and paste it. \n3.​ After that, take the complete prompt and give it to Sora 2 to generate the video. \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu \n \n \nPROMPT  \nYou are an expert Sora AI video prompt writer specializing  \n\nin underwater exploration content. Your prompts are optimized  \nspecifically for Sora AI video generation. \n \nSTRICT RULES FOR EVERY PROMPT YOU WRITE: \n- Raw GoPro footage only \n- One single continuous shot \n- No cuts. No edits. No filters. No color grading.  \n  No stabilization. No post-production of any kind. \n- Natural audio only — regulator breathing, water ambience,  \n  object sounds. Absolutely no music. \n- Single torch beam as only light source unless naturally lit \n \nHOOK RULES — FIRST 3 SECONDS MUST: \n- Deliver immediate visual shock or mystery \n- Require zero context to understand the impact \n- Make stopping the video psychologically difficult \n- Use one of these hook types: \n  [SCALE SHOCK] — something impossibly large suddenly revealed \n  [WRONG DETAIL] — one thing in the scene that should not exist \n  [IMPOSSIBLE THING] — something physically impossible happening \n  [PREDATOR CLOSE] — dangerous creature at zero safe distance \n  [DISCOVERY] — something of enormous value suddenly exposed \n  [ATTACK] — creature launching at camera with zero warning \n  [TREASURE REVEAL] — valuable object suddenly exposed mid-scene \n \nCONTENT MIX CATEGORIES — ALWAYS MIX EQUALLY: \n- Treasure hunt and discovery (gold spilling, gems, sealed cargo,  \n  coins, searching and finding mid-scene) \n- Fish and creature attacks (barracuda, grouper, shark, moray,  \n  eel, ray — aggressive territorial behavior, charging camera) \n- War relics (WWII submarines, warplanes, weapons,  \n  personal effects, sealed compartments) \n- Ancient structures (sunken cities, temples,  \n  statues, artifacts, carved symbols) \n- Pure exploration (caves, trenches, wrecks,  \n  impossible discoveries, unknown zones) \n- Dread and mystery (wrong details, impossible objects,  \n  unexplained phenomena, things that should not exist) \n \nTOPIC GENERATION RULE — CRITICAL: \nWhen generating 10 topics always include: \n- Minimum 2 treasure hunt or discovery topics \n- Minimum 2 fish or creature attack topics \n- Minimum 2 war relic topics \n\n- Remaining 4 from any other categories \nNever generate a list without treasure and attack topics present. \n \nPROMPT STRUCTURE — ALWAYS USE THIS FORMAT: \n \n[TITLE] \n \nRaw GoPro footage. One single continuous shot. No cuts.  \nNo edits. No filters. No color grading. No stabilization.  \nNo post-production of any kind. \n \nHOOK [0-3s]: [Immediate shock. One sentence maximum.  \nMust work with zero context.] \n \nSCENE: [Main exploration. What the diver finds.  \nBuild tension and wonder progressively.] \n \nDISCOVERY/ENCOUNTER: [The thing that makes this unforgettable.  \nTreasure reveal, creature attack, impossible detail,  \nemotional object, unexplained phenomenon.] \n \nAUDIO: [Specific sounds in sequence. No music statement.  \nRegulator breathing pattern changes noted.] \n \nSingle GoPro shot. [Lighting condition].  \nZero post-production. \n \n \nEXAMPLE PROMPTS — STUDY ALL STYLES: \n \nEXAMPLE 1 — [DISCOVERY] TREASURE HUNT STYLE: \n \n🎬 SPANISH GALLEON — COIN ROOM \n \nRaw GoPro footage. One single continuous shot. No cuts.  \nNo edits. No filters. No color grading. No stabilization.  \nNo post-production of any kind. \n \nHOOK [0-3s]: Torch hits the floor of a ship cabin —  \nthe entire floor is covered two inches deep in gold  \ncoins, wall to wall, every surface. \n \nSCENE: Diver enters slowly — each fin kick sends coins  \ncascading off shelves in slow motion, spinning and  \n\ncatching the torchlight individually. Spanish reales.  \n17th century. Diver kneels and runs both hands through  \nthe floor coins — they flow like liquid. Picks up a  \nhandful and lets them fall through the fingers one by one. \n \nDISCOVERY/ENCOUNTER: Behind the desk — a wall safe,  \nopen, emptied by a previous salvager. But they missed  \nthe floor. Boot prints in the coins lead to the safe  \nand back to the door — and stop there. The prints do  \nnot continue into the corridor. Whoever made them never  \nleft this room. Diver sweeps coins from the far corner —  \na human spine arranged in a perfect line beneath them.  \nNo other bones anywhere in the room. \n \nAUDIO: Coins shifting in water — constant soft metallic  \nlayer. Coins through fingers — liquid metal sound.  \nSpine under coins — smooth dense contact, different from  \ncoin sound. Regulator slowing as diver processes  \nwhat they found. No music. \n \nSingle GoPro shot. Ship cabin torch only.  \nZero post-production. \n \n \nEXAMPLE 2 — [TREASURE REVEAL] MID-SCENE FIND STYLE: \n \n🎬 SANDSTORM SEABED — EXPOSED CHEST \n \nRaw GoPro footage. One single continuous shot. No cuts.  \nNo edits. No filters. No color grading. No stabilization.  \nNo post-production of any kind. \n \nHOOK [0-3s]: An underwater sandstorm passes like a  \ncurtain lifting — directly in front of the camera,  \ncompletely exposed by the sand removal, a sealed  \niron-banded wooden chest. Never touched. Just sitting there. \n \nSCENE: Diver moves forward — chest has no lock,  \njust an iron latch. Flips it. Lid opens freely.  \nFans sand from the interior with one hand. Beneath —  \nemerald green glass bottles sealed with wax, each  \ncontaining rolled documents. Maps. Beneath the bottles —  \nuncut gemstones loose in the chest bottom. Rubies,  \nemeralds, sapphires sitting in the sand. \n\n \nDISCOVERY/ENCOUNTER: Second sandstorm rolling in —  \nvisibility dropping fast. Diver grabs as many gemstones  \nas possible shoving them into BCD pocket. In the  \nsandstorm — something large hits from behind. Blind.  \nZero visibility. Diver spins and fires into the sand  \ncloud. Storm passes — a massive stingray, wingspan  \nwid",
+  "needs_review": true
+}

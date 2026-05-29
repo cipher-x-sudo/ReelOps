@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR ANIMAL TEETH CLEANING VIDEOS",
+  "slug": "guide-for-animal-teeth-cleaning-videos",
+  "source_file": "D:\\reelops\\niches\\ANIMAL TEETH CLEANING VIDEOS\\GUIDE FOR ANIMAL TEETH CLEANING VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 8,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nANIMAL TEETH CLEANING VIDEOS\n– GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nSTEP 01 — Paste the Master Prompt into Claude\nCopy the master prompt and paste it into Claude.ai\nClaude will immediately generate a list of 10 wild animals.\nType the number or name of any animal you want from the list.\nClaude will then generate:\n8 Image Prompts\n7 Video Transition Prompts\nCopy all prompts before moving to the next step.\nSTEP 02 — Generate Images (Google Gemini)\nGo to gemini.google.com and open a new chat.\nGenerating Image 1:\nPaste Image Prompt 1 into the Gemini chat and generate the image.\nOnce Image 1 is generated, copy that image.\nGenerating Image 2:\nPaste the copied Image 1 back into the same Gemini chat as a reference image.\nThen paste Image Prompt 2 below it and generate Image 2.\nGenerating Image 3 and beyond:\nCopy Image 2 and paste it into the chat as a reference image.\nThen paste Image Prompt 3 and generate Image 3.\nContinue this same process for all 8 images:\nAlways paste the previous image as a reference first\nThen paste the next image prompt\nGenerate the image\nCopy the result and repeat\nThis reference image method keeps the animal character, angle, and setting consistent across all 8 images.\nOnce all 8 images are generated, download all of them to your device.\nSTEP 03 — Generate Videos\nFor generating videos from your images, you have two options:\nOption A — OpenArt AI (Recommended) Go to openart.ai\nOption B — Google Flow Go to labs.google/flow\n⚠️ Note: Google Flow sometimes triggers policy violation errors when generating wildlife dental content. OpenArt AI is recommended to avoid this issue.\nHow to generate each video clip:\nSelect the Frame to Video option.\nSet Image 1 as the Start frame and Image 2 as the End frame.\nPaste Video Transition Prompt 1 as the motion prompt and generate Video Clip 1.\nThen set Image 2 as Start and Image 3 as End.\nPaste Video Transition Prompt 2 and generate Video Clip 2.\nContinue this process for all 7 video clips:\nClip 1 → Image 1 to Image 2 → Transition Prompt 1\nClip 2 → Image 2 to Image 3 → Transition Prompt 2\nClip 3 → Image 3 to Image 4 → Transition Prompt 3\nClip 4 → Image 4 to Image 5 → Transition Prompt 4\nClip 5 → Image 5 to Image 6 → Transition Prompt 5\nClip 6 → Image 6 to Image 7 → Transition Prompt 6\nClip 7 → Image 7 to Image 8 → Transition Prompt 7\nOnce all 7 video clips are generated, download all of them to your device.\nSTEP 04 — Edit and Export (CapCut)\nOpen CapCut and create a new project.\nImport all 7 video clips in order from Clip 1 to Clip 7.\nArrange them in sequence on the timeline.\nAdd background music if needed.\nExport the final video and upload to Facebook Reels, YouTube Shorts, or Instagram Reels.\nFull Workflow Summary\nMaster Prompt → Claude.ai\nImage Generation → Google Gemini (with reference image method)\nVideo Generation → OpenArt AI (recommended) or Google Flow\nEditing → CapCut\nUpload → Facebook Reels / YouTube Shorts / Instagram Reels",
+  "needs_review": true
+}

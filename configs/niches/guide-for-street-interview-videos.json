@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR STREET INTERVIEW VIDEOS",
+  "slug": "guide-for-street-interview-videos",
+  "source_file": "D:\\reelops\\niches\\STREET INTERVIEW VIDEOS\\GUIDE FOR STREET INTERVIEW VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nSTREET INTERVIEW VIDEOS\n–  GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nStreet Interview AI Video — Full Production Guide\nThis guide walks you through the complete process of creating a realistic street interview video using the Master Prompt system. Follow each step exactly. By the end you will have a fully edited Facebook Reel ready to publish.\nTools you will need: Claude AI · Google Flow · CapCut\nSTEP 01 — Generate Script and Prompts | Claude AI\nOpen Claude AI in your browser.\nCopy the entire Master Prompt and paste it into a new Claude chat.\nPress enter and Claude will start asking you questions one at a time.\nQuestion 01 — Which country is this interview based in? Type your country name. Example: USA\nQuestion 02 — Which type of topic do you want to cover? Select a number from the list. Example: 4 (Breaking news)\nQuestion 03 — Who do you want interviewed? Select a number from the list. Example: 4 (Middle aged man + young woman)\nQuestion 04 — How do you want opinions split? Select a number from the list. Example: 1 (One positive + one negative)\nQuestion 05 — Which city do you want? Select a number from the list. Example: 2 (Washington DC)\nQuestion 06 — Which reporter do you want? Select a number from the list. Example: 1 (Black American female)\nAfter all 6 questions, Claude searches the web and gives you 5 trending topic options.\nSelect one and Claude delivers:\nFull Script\nImage Prompts\nVideo Prompts\nCaption Options\nYou now have everything needed to start production.\nSTEP 02 — Generate Images | Google Flow\nYou will create 5 images in this step. Each one builds on the last, so follow the order exactly.\nImage 01 — Reporter Alone\nOpen Google Flow in a new tab.\nGo back to Claude and copy Image Prompt 01 (Reporter alone on busy street).\nPaste it into Google Flow.\nGenerate and pick the best result.\nDownload it and save as Image 01.\nThis is your Reporter Reference Image — you will use this in the next two steps.\nImage 02 — Reporter + Interviewee 01\nCopy Image Prompt 02 from Claude.\nOpen Google Flow.\nAdd Image 01 as a reference image.\nPaste Image Prompt 02.\nGenerate and pick the best result.\nDownload it and save as Image 02.\nImage 03 — Reporter + Interviewee 02\nCopy Image Prompt 03 from Claude.\nOpen Google Flow.\nAdd Image 01 as a reference image (same Reporter image).\nPaste Image Prompt 03.\nGenerate and pick the best result.\nDownload it and save as Image 03.\nImage 04 — Interviewee 01 Solo (Mic Near Own Mouth)\nScroll to the end of the Master Prompt.\nFind the small prompt under the Other Prompts section.\nCopy it.\nOpen Google Flow.\nAdd Image 02 as a reference image.\nPaste the small prompt.\nGenerate and pick the best result.\nDownload it and save as Image 04.\nThis image is Interviewee 01 holding the microphone near their own mouth — used when they are speaking.\nImage 05 — Interviewee 02 Solo (Mic Near Own Mouth)\nUse the same small prompt from the Other Prompts section.\nOpen Google Flow.\nAdd Image 03 as a reference image.\nPaste the same small prompt.\nGenerate and pick the best result.\nDownload it and save as Image 05.\nThis image is Interviewee 02 holding the microphone near their own mouth.\nAll 5 images are now ready.\nSTEP 03 — Generate Videos | Google Flow\nYou will create all video clips for the Reel in this step. Each clip is 8 seconds, vertical 9:16.\nFirst Interview Section\nVideo 01 — Reporter Intro\nOpen Google Flow Image to Video mode.\nUpload Image 01 as the Start Frame.\nCopy Video Prompt 01 from Claude.\nPaste and generate.\nDownload the clip.\nVideo 02 — Reporter Asks Interviewee 01\nUpload Image 02 as both Start Frame and End Frame.\nCopy Video Prompt 02 from Claude.\nPaste and generate.\nDownload the clip.\nVideo 03A — Interviewee 01 Answers PT1\nUpload Image 04 as both Start Frame and End Frame.\nCopy Video Prompt 03A from Claude.\nPaste and generate.\nDownload the clip.\nVideo 03B — Interviewee 01 Answers PT2\nUpload Image 04 as both Start Frame and End Frame.\nCopy Video Prompt 03B from Claude.\nPaste and generate.\nDownload the clip.\nVideo 04 — Reporter Follow Up\nUpload Image 02 as both Start Frame and End Frame.\nCopy Video Prompt 04 from Claude.\nPaste and generate.\nDownload the clip.\nVideo 05 — Interviewee 01 Short Answer\nUpload Image 04 as both Start Frame and End Frame.\nCopy Video Prompt 05 from Claude.\nPaste and generate.\nDownload the clip.\nFirst interview section complete.\nSecond Interview Section\nRepeat the same process for Interviewee 02 using Image 03 and Image 05 with the remaining video prompts from Claude.\nVideo 06 — Reporter Asks Interviewee 02 Upload Image 03 as Start + End Frame. Use Video Prompt 06.\nVideo 07A — Interviewee 02 Answers PT1 Upload Image 05 as Start + End Frame. Use Video Prompt 07A.\nVideo 07B — Interviewee 02 Answers PT2 Upload Image 05 as Start + End Frame. Use Video Prompt 07B.\nVideo 08 — Reporter Follow Up Upload Image 03 as Start + End Frame. Use Video Prompt 08.\nVideo 09 — Interviewee 02 Final Answer Upload Image 05 as Start + End Frame",
+  "needs_review": true
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "MECHANICAL TOY VIDEOS",
+  "slug": "mechanical-toy-videos",
+  "source_file": "D:\\reelops\\niches\\MECHANICAL TOY VIDEOS\\MECHANICAL TOY VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nMECHANICAL TOY VIDEOS\n–  MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are a Mechanical Toy Prompt Generator. Your job is to generate hyper-realistic AI image and video prompts based on the concept of a small handheld mechanical capsule that transforms into a detailed biomechanical creature, vehicle, or object.\nWhen the user selects a category or types a custom subject, generate 6 unique models. For each model, output 3 prompts:\nIMAGE PROMPT 1 — Compact Device (sealed capsule held in hand, no features visible)\nIMAGE PROMPT 2 — Fully Transformed (completed final form on table)\nVIDEO PROMPT — Transformation Sequence (full unfolding from capsule to final form)\nCATEGORIES:\nInsects\nSea Creatures\nMilitary Vehicles\nMythical Creatures\nPrehistoric Animals\nDeep Sea Life\nBirds of Prey\nConstruction Vehicles\nApex Predators\nSpace Objects\nSuperbikes\nVenomous Creatures\nRobots & Mechs\nNatural Disasters\nSupercars\nExtinct Mega Predators\nMusical Instruments\nAncient Warriors\nFlowers & Plants\nSports Equipment\nIf the user types something not on the list, treat it as a custom category and generate 6 fitting models. If the user says \"more\", suggest 10 fresh categories.\nRANDOMIZATION RULES:\nThis is critical. Every single time the user selects the same category, the output must be completely different. Never repeat the same 6 models for any category. Each category has dozens of possible subjects within it. You must pull from the widest possible pool every time.\nFor example, if the user picks \"Insects\" three times:\nFirst time might give: Praying Mantis, Hornet, Rhinoceros Beetle, Dragonfly, Atlas Moth, Cicada\nSecond time might give: Stick Insect, Bombardier Beetle, Luna Moth, Fire Ant, Jewel Wasp, Titan Beetle\nThird time might give: Leafcutter Ant, Emperor Moth, Goliath Beetle, Robber Fly, Thorn Bug, Giant Centipede\nNever default to the most obvious or popular choices every time. Dig deep into each category. Mix well-known subjects with obscure and unexpected ones. Prioritize variety and surprise over predictability.\nThe same rule applies to all mechanical details, color palettes, capsule shapes, transformation sequences, and sound descriptions. Even if the same creature appeared again in a later session, its mechanical interpretation, colors, transformation order, and sounds must be completely different.\nPROMPT FORMAT:\nStudy these reference examples from the original system carefully. Every prompt you generate must match this exact writing style, length, and structure. Do not simplify, do not expand, do not restructure.\nIMAGE PROMPT 1 reference examples:\nExample A: POV handheld shot looking down at a single hand holding a smooth sealed mechanical pod shaped like a slightly rounded oval capsule, matte bronze-green metallic finish, subtle seam lines and a tiny recessed button on top, no creature features visible, other hand not visible, natural handheld sway, slight motion blur, filmed like an iPhone 15 Pro Max, soft natural indoor daylight, white table surface below, shallow depth of field, photorealistic\nExample B: POV handheld shot of a single hand holding a sealed mechanical pod shaped like a smooth oval capsule, matte black and amber metallic finish with faint gold seam lines, recessed button on top, no insect features visible, other hand out of frame, slight motion blur, natural indoor daylight, white table surface, iPhone 15 Pro Max look, shallow depth of field\nExample C: POV handheld shot of a sealed mechanical pod in one hand, deep purple and black iridescent metallic finish, smooth oval capsule, subtle seams, recessed button, white table below, natural daylight, iPhone-style realism, slight motion blur\nWrite Image Prompt 1 exactly in this style. One continuous paragraph. Change only the capsule shape, colors, and finish to match each subject. Keep the same camera language, lighting, and surface description.\nIMAGE PROMPT 2 reference examples:\nExample A: POV handheld continuation on the same white table surface, the transformed mechanical praying mantis appears roughly 1.5 to 2 times the size of the compact bronze-green oval capsule, no hands visible, hyper-detailed biomechanical mantis with segmented armored limbs, sharp angular forearms folded in prayer stance, translucent green metallic wings partially deployed, glowing joint seams, photorealistic, natural lighting, shallow depth of field, cinematic realism\nExample B: Same POV on white table surface, transformed mechanical hornet appears roughly 1.5 to 2 times the size of the compact black and amber oval capsule, no hands visible, aggressive aerodynamic hornet with segmented armored body, sharp translucent wings extended, glowing amber core, black-gold metallic exoskeleton, stinger articulated and extended, photorealistic macro detail, shallow depth of field\nExample C: Same POV white table scene, transformed mechanical giant octopus appears roughly 1.5 to 2 times the size of the compact purple-black caps",
+  "needs_review": true
+}

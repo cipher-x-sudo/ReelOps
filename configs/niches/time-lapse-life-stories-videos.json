@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "Time-lapse Life Stories videos",
+  "slug": "time-lapse-life-stories-videos",
+  "source_file": "D:\\reelops\\niches\\Time-lapse Life Stories videos\\Time-lapse Life Stories videos.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nTIME-LAPSE LIFE STORY VIDEOS - PROMPT SET \n \n1.​ Prompt 1 එක copy කරලා claude එකට දෙන්න \n2.​ ඊටපස්සෙ එන list එකෙන් කැමති එකක් copy කරලා paste කරන්න \n3.​ ඊටපස්සෙ දෙන සම්පූර්ණ prompt එක google gemini එකට දීලා image එක genarate \nකරගන්න. \n4.​ ඊටපස්සෙ ඒ එන image එක download වෙන්න දාලා road renovation videos වල කරා වගේ \nපලවෙනියට හදාගත්ත image එක කො\nපි කරලා gemini එකට paste කරගෙන දෙවනි prompt \nඑක copy කරලා paste කරලා දෙවනි image එක හදාගන්න.  \n5.​ මේ විදියට 2,3,4 prompt ටිකෙන් අනිත් image ටිකත් හදාගන්න.( තේරුනේ නැත්තන්  road \nrenovation videos හදන විදිය කියල දුන්න video එක බලන්න ) \n6.​ අවසානෙට image හතර capcut එකට දාලා image එකෙන්  image එකට පහල image එකේ \nවගේ texts add කරලා  ගැලපෙන music එකක් දාගෙන export කරගන්න . \n \n\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \n \n \nPROMPT - 1 \nYou are a creative AI image prompt generator specializing in Google  \nStreet View style photography. \n \n\nSTEP 1: Generate exactly 10 warm and candid family moment scenes  \ntaking place in a rural front yard or garden (numbered 1-10, one line  \neach). Scenes must feel genuine and emotionally real - multi-generational  \nfamilies (grandparents + parents + kids) caught in natural everyday  \nmoments together. Examples: grandma teaching granddaughter to bake  \noutside, whole family celebrating a birthday in the garden, dad and  \nkids fixing an old bicycle while grandpa supervises, family gathered  \naround a bonfire in the evening. \n \nSTEP 2: Wait for me to pick a number. \n \nSTEP 3: Generate a detailed image prompt using these fixed rules: \n \n- Camera: Google Street View sideways-mounted camera, car roof  \n  visible at bottom corner, road runs diagonally through frame \n \n- Location: Central/Eastern European rural village, modest  \n  plastered house, red terracotta tile roof, low metal fence,  \n  flower garden, narrow cracked asphalt road, utility poles \n \n- People: Multi-generational family (grandparents, parents,  \n  children), all faces blurred/pixelated (Street View style),  \n  candid natural poses, casual summer clothing \n \n- Color grading & mood: Muted natural tones, slightly desaturated  \n  greens and browns, pale overcast sky with soft diffused light,  \n  no harsh shadows, faded film-like quality, colors feel real and  \n  unglamorous - exactly like an authentic Google Street View capture.  \n  Terracotta roof warm but dull, grass is deep natural green,  \n  road is grey-beige weathered asphalt \n \n- Style: Photorealistic, candid, unposed, emotional, documentary  \n  photography, feels like a real accidental capture, no filters,  \n  no cinematic color grading \n \n- Light: Natural daylight, soft overcast sky, flat even lighting,  \n  slightly cloudy summer afternoon \n \n- Format: 9:16 vertical \n \nStart with Step 1 now. \n \nPROMPT - 2 \n\nGoogle Street View capture, 9:16 vertical format. Same road, same angle, same modest \nCentral/Eastern European rural house with terracotta tile roof, low metal fence, utility poles. Five \nyears have passed. The house shows subtle aging — paint slightly more faded, one shutter \nhinge loose. The vegetable garden is still tended but slightly less neat. The grandfather is \nabsent from the scene. The grandmother sits alone in a garden chair near the fence, visibly \nolder, watching. The mother, now slightly aged, works the garden rows alone. The older child is \nnow a young teenager, helping carry a basket. The younger child runs nearby. All faces \npixelated Street View style. The garden feels quieter, one presence missing without explanation. \nSame muted desaturated color grading, flat overcast daylight, faded film quality, unglamorous, \nno filters. Cracked asphalt road diagonal in foreground, car rooftop visible in corner. \n \nPROMPT - 3 \nGoogle Street View capture, 9:16 vertical format. Same house, same road angle, same village \nsetting. Ten years have passed. The plaster on the house wall is visibly cracked and stained \nwith damp patches. The fence has a bent section never repaired. The flower border is \novergrown and untamed. The grandmother is no longer present in the yard. The mother, now \nmiddle-aged, stands near the doorstep alone, looking toward the road. The teenage child from \nbefore is now a young adult, seen briefly near the gate as if visiting, not living there. No children \nplaying. The garden plot is smaller, less ambitious. A single chair sits empty near where the \ngrandmother used to sit. Atmosphere feels quieter, slower, heavier. All faces pixelated Street \nView style. Same muted flat documentary color grading, pale sky, desaturated greens, \nweathered grey-beige road. Candid, unposed, emotionally real. \n \nPROMPT - 4 \nGoogle Street View capture, 9:16 vertical format. Same house, same diagonal road, same \ncamera angle. Fifteen years have passed. The house is now visibly abandoned. Plaster heavily \ncracked and peeling, exposing bare brick in patches. Roof tiles broken or slipped in one section. \nThe metal fence is rusted, gate hanging open at an angle, never closed. The garden is entirely \novertaken by wild grass and weeds, no flower border visible. Windows are dark, one cracked. \nNo people in the yard. A single forgotten item — an old plastic crate or a weathered garden \nchair — sits half-buried in the overgrown grass, the only trace of the family life once lived here. \n\nUtility poles still standing along the road. The road is the same cracked asphalt, unchanged, \nindifferent. No faces, no people. Deep stillness. Same muted desaturated color grading, flat grey \novercast sky, faded film quality. The image feels like an accidental capture of absence. \nPhotorealistic, documentary, emotionally heavy, no filters. \n \n \n \n \n \n",
+  "needs_review": true
+}

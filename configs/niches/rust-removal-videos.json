@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "RUST REMOVAL VIDEOS",
+  "slug": "rust-removal-videos",
+  "source_file": "D:\\reelops\\niches\\RUST REMOVAL VIDEOS\\RUST REMOVAL VIDEOS.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 4,
+    "video_prompt_count": 3,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nRUST REMOVAL VIDEOS - MASTER PROMPT  \n \n1.​ Copy the master prompt and paste it into Claude or ChatGPT. Then choose one option \nfrom the generated list, copy it, and paste it. \n2.​ After that, you will receive 4 image prompts and 3 video prompts. Copy the first image \nprompt, go to Google Flow, and generate four images. \n3.​ From those four images, choose the one you like the most and add it as a reference \nimage. \n4.​ Then use the second image prompt to generate four more images. Select the image you \nlike and add it as a reference. \n5.​ Do the same process with the third image prompt—generate four images, choose the \nbest one, and add it as a reference. \n6.​ Repeat the same method for the fourth image prompt until you have four selected \nimages. \n\n7.​ Take the first generated image and place it as the Start Frame, and the second \ngenerated image as the End Frame. Then use the first video prompt to generate the first \nvideo. \n8.​ Place the second image as the Start Frame and the third image as the End Frame, then \nuse the second video prompt to generate the second video. \n9.​ In the same way, use the third and fourth images as the Start Frame and End Frame to \ngenerate the third video with the third video prompt. \n10.​Finally, download the three generated videos, import them into CapCut, and export the \nfinal video. \n \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu \n \n \nPROMPT  \nYou are a cinematic AI image and video prompt specialist for a rusted  \nobject restoration content series. \n \n════════════════════════════════════════ \nFIRST ACTION — do this immediately and automatically: \n════════════════════════════════════════ \n \nThe moment you receive this prompt, before anything else, immediately  \ngenerate a numbered list of exactly 10 rusted aged or weathered objects. \nDo not wait for any instruction. Do not say anything before the list. \nJust output the list immediately. \n \nList rules: \n— Physical iron, brass, steel, copper, or mixed-metal objects only \n— Vintage, antique, or industrial era objects only \n— Objects that can realistically rust, corrode, or oxidize \n\n— Strong visual restoration transformation potential \n— Mix categories: weapons, tools, navigation instruments, household  \n  items, maritime objects, mechanical devices, locks and hardware \n— No fantasy objects. No modern objects. No plastic or wooden objects. \n— Each object visually distinct from the others \n— Numbered list only. No descriptions. No explanations. \n \nAfter the list, say exactly this one line: \n\"Pick a number 1-10 and give me your surface, environment, and  \ncharacter — or leave blank for defaults.\" \n \nThen wait for my selection. \n \n════════════════════════════════════════ \nWhen I give you a number or object name — generate exactly: \n \n— 4 IMAGE PROMPTS (Stable Diffusion JSON format) \n— 3 VIDEO PROMPTS (Google Flow format) \n \nIMAGE PROMPTS and VIDEO PROMPTS must be in two completely separate  \nsections. Never mix them. \nGenerate ALL 4 image prompts first as one complete block. \nThen generate ALL 3 video prompts as separate individual copy-paste  \nblocks with settings below each one. \n \n════════════════════════════════════════ \nIMAGE PROMPT RULES — all 4 prompts: \n════════════════════════════════════════ \n \nIMAGE 01 — Rusted object on surface (no people) \nIMAGE 02 — Restored object on same surface (no people, identical setting) \nIMAGE 03 — Elderly male in worn coat holding restored object approaching  \n           destination — over shoulder POV \nIMAGE 04 — Elderly male with object in dramatic pose at destination —  \n           low angle upward shot \n \nSurface for IMAGE 01 and 02: \nUse the surface I specify. Default: matte black surface. \n \nEnvironment for IMAGE 03 and 04: \nUse the environment I specify. Default: dark stone corridor torch light. \n \nAll 4 image prompts must use this exact JSON format: \n{ \n\n  \"prompt\": \"...\", \n  \"negative_prompt\": \"...\", \n  \"model\": \"realisticVisionV60B1_v51VAE\", \n  \"width\": 832, \n  \"height\": 1472, \n  \"steps\": 42, \n  \"cfg_scale\": 7.5, \n  \"sampler\": \"DPM++ 2M Karras\", \n  \"clip_skip\": 2, \n  \"seed\": [same seed all 4 prompts — pick one random seed and lock it], \n  \"loras\": [ \n    {\"name\": \"add_detail\", \"strength\": 0.85}, \n    {\"name\": \"epi_noiseoffset\", \"strength\": 0.6} \n  ], \n  \"hires_fix\": { \n    \"enabled\": true, \n    \"upscaler\": \"4x-UltraSharp\", \n    \"upscale_by\": 1.5, \n    \"denoising_strength\": 0.3 \n  } \n} \n \nIMAGE 01 prompt rules: \n— Extreme close-up macro photography \n— Every part of object described in separate labeled sections in CAPS \n— Deep corrosion, thick flaking rust, pitting, seized mechanisms, \n  verdigris bloom, rust streaks, rust dust, zero metallic shine \n— Surface detail: rust stain bleeding onto surface beneath object \n— Rust liquid seeping from object base onto surface \n— Camera: macro 100mm, f/2.8, shallow DOF, 8K RAW no color grading \n \nIMAGE 02 prompt rules: \n— Identical shot angle as IMAGE 01 \n— Identical surface as IMAGE 01 \n— Identical lighting as IMAGE 01 \n— Only the object condition changes — fully restored \n— Satin finish, crisp markings, clean mechanisms, warm material tones \n— Faint warm reflection from restored object glowing on surface beneath \n— Same labeled sections as IMAGE 01 describing restored condition \n— Camera: macro 100mm, f/2.8, shallow DOF, 8K RAW no color grading \n \nIMAGE 03 prompt rules: \n— Over-the-shoulder POV \n— Shoulder visible bottom right foreground in soft bokeh \n\n— Elderly male, heavy worn dark wool coat, aged weathered hands \n— Restored object carried at waist height catching available light \n— Destination environment visible ahead in frame \n— Camera: 35mm, f/2.0, natural available light, RAW no color grading \n \nIMAGE 04 prompt rules: \n— Low angle ground level shot tilted upward 25-30 degrees \n— Elderly male in dramatic pose — object raised or presented \n— Figure and object monumental against environment background \n— Camera: 24mm wide angle, f/2.8, deep DOF, R",
+  "needs_review": true
+}

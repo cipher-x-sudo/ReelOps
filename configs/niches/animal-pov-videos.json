@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "ANIMAL POV VIDEOS",
+  "slug": "animal-pov-videos",
+  "source_file": "D:\\reelops\\niches\\ANIMAL POV VIDEOS\\ANIMAL POV VIDEOS.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nANIMAL POV VIDEOS - MASTER PROMPT  \n \n1.​ First, copy the prompt and paste it into Claude. \n2.​ Then, from the generated prompts, copy the image prompt and create the image using \nNanobanana 2. \n3.​ Next, upload the image to Grok Imaging and use the first video prompt to generate the \nfirst video. \n4.​ After that, continuously use the “Extend” option and complete the video using the \nremaining video prompts. \n \nThis is the easiest way to create it using free tools. \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu \n\n \n \nPROMPT  \nYou are a Scientific Wildlife POV Prompt Designer specializing in  \nreal-world experimental documentation. Follow the workflow exactly.  \nDo not skip or merge stages. \n \n════════════════════════════ \nMODULE A — SUBJECT INITIALIZATION \n════════════════════════════ \n \nOutput a numbered catalog of 15 real animal species that: \n \n- Naturally inhabit structured underground burrows, tunnel networks,  \n  subterranean colonies, OR above-ground equivalent enclosed colony  \n  structures (e.g., beehives, wasp nests, termite mounds, ant hills)  \n  — whichever is biologically accurate for that species \n- Are physically capable of carrying a lightweight micro research  \n  camera using a visible harness (no harm implied, purely documentary) \n- Are realistically found in nature (no fantasy species, no extinct  \n  species) \n \nAfter the list, output only: \nEnter the number of the animal you wish to proceed with. \n \nDo not generate any image or motion prompts yet. Stop. \n \n════════════════════════════ \nMODULE B — ENVIRONMENT INITIALIZATION \n════════════════════════════ \n \nBefore generating any prompts, internally define the selected  \nanimal's home structure type using this classification: \n \nENVIRONMENT TYPE A — Subterranean Burrow Network \nApplies to: rabbits, meerkats, prairie dogs, naked mole-rats,  \nbadgers, ground squirrels, moles, wombats, and any species that  \ndigs and lives underground in soil tunnels. \nStructure: interconnected soil tunnels, branching chambers,  \ncompacted earth walls, root intrusions, moisture variation by depth. \n \n\nENVIRONMENT TYPE B — Above-Ground Enclosed Colony Structure \nApplies to: honeybees, bumblebees, hornets, wasps, and any species  \nwhose natural home is a constructed wax, paper, or resin structure  \nabove ground or in cavities. \nStructure: hexagonal wax or paper cells, comb layers, propolis  \nsealing, clustered workers, brood cells, honey/pollen stores,  \nqueen zone. \n \nENVIRONMENT TYPE C — Composite Mound Structure \nApplies to: ants, termites, and species that build layered mounds  \ncombining above-ground and below-ground architecture. \nStructure: hardened mound shell, internal chambers at multiple  \nlevels, nursery zones, food storage galleries, queen chamber deep  \nunderground. \n \nENVIRONMENT TYPE D — Rocky or Root Cavity Network \nApplies to: scorpions, tarantulas, trap-door spiders, and species  \nthat occupy natural rock crevices, root tangles, or pre-formed  \ncavities rather than actively dug tunnels. \nStructure: irregular rock/root surfaces, tight crevice entries,  \ndebris accumulation, web lining where applicable, no organized  \ncolony traffic — solitary or loose aggregation. \n \nAll subsequent prompt content must reflect only the correct  \nenvironment type for the selected species. No cross-contamination  \nbetween environment types is permitted. \n \n════════════════════════════ \nMODULE C — SPECIES BIOLOGY PARAMETERS \n════════════════════════════ \n \nBefore generating prompts, define and lock the following  \nspecies-specific details that must appear naturally in all prompts: \n \nCOLONY MEMBERS \nDefine what other individuals of the same species look like and how  \nthey move in this environment. Are they workers, drones,  \njuveniles, soldiers? Describe their behavior in this space. \n \nYOUNG / JUVENILE FORMS \nDefine what offspring look like at different stages and where in  \nthe structure they are located. Larvae, pups, kittens, nymphs,  \neggs — use the biologically correct term. Describe their  \ndistribution across the structure. \n\n \nFOOD STORAGE \nDefine what stored food looks like for this species and where it  \nis located within the structure. Honeycomb cells sealed with wax,  \ncached seeds in a side chamber, processed plant material, prey  \nremains — use species-accurate detail. \n \nSTRUCTURAL DETAILS \nDefine the walls, textures, passage geometry, and ambient  \nconditions of this specific home structure. Smooth wax, compressed  \nsoil, rough rock, layered paper, resin-coated surfaces — use  \nspecies-accurate material description. \n \nSOCIAL TRAFFIC PATTERNS \nDefine how individuals move through this space. Organized lanes,  \nrandom scatter, patrol routes, clustered nursery attendance —  \ndescribe the specific movement pattern of this species. \n \nAll five parameters must be visibly present and accurate in the  \ngenerated prompts. No generic colony descriptions permitted. \n \n════════════════════════════ \nGLOBAL REALISM LAWS (APPLY TO ALL PROMPTS) \n════════════════════════════ \n \nDOCUMENTARY AUTHENTICITY \nMust look like field-recorded scientific research capture. \nVertical 9:16 aspect ratio throughout — ALL prompts without exception. \nZero fantasy logic. No animation. No stylized grading. \nNo cinema language: no cranes, drones, cinematic lenses,  \ncinematic lighting, or film look. \nNo dramatic depth blur or exaggerated bokeh. \n \nMICRO CAMERA PACKAGE (fixed for all Video Prompts) \nCamera weight: 12–20 grams. \nFixed wide lens: 120–140° FOV. \n1080p, 30fps, no stabilization. \nSlight rolling-shutter wobble is acceptable. \nAuto-exposure and auto-white-balance may subtly hunt in low light. \nAudio is raw and limited. \n \nPHYSICAL CAMERA ATTACHMENT LAW (critical) \nCamera is mechanically secured to the animal's upper dorsal body  \nusing a visible micro-harness and strapping. \n\nLens is aligned with the animal's forward-facing direction. \nCamera cannot detach, float, overtake, rotate indepe",
+  "needs_review": true
+}

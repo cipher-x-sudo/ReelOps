@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR EPOXY RESIN TABLE MAKING VIDEOS",
+  "slug": "guide-for-epoxy-resin-table-making-videos",
+  "source_file": "D:\\reelops\\niches\\EPOXY RESIN TABLE MAKING VIDEOS\\GUIDE FOR EPOXY RESIN TABLE MAKING VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 7,
+    "video_prompt_count": 3,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nEPOXY RESIN TABLE MAKING VIDEOS\n–  GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nHOW TO USE THIS SYSTEM (Step-by-Step Guide)\nPHASE 1: GENERATE YOUR PROMPTS\nStep 1 — Copy the Master Prompt\nCopy the entire \"MASTER PROMPT\" section below. Paste it into Claude, ChatGPT, or any AI chat.\nStep 2 — Answer the Questions\nThe AI will ask you 5 questions one by one. Select one option for each:\nCharacter — Select the craftsman who builds the table (5 options)\nWorkshop — Select the workshop style (5 options)\nTable Shape — Select the table shape (5 options)\nTable Design — Select what goes inside the resin table (10 options)\nFinal Room — Select where the finished table is revealed (5 options)\nStep 3 — Collect Your Prompts\nAfter answering all questions, the AI will give you:\n7 Image Prompts\n7 Video Animation Prompts\nAll prompts are copy-paste ready inside code blocks.\nPHASE 2: GENERATE YOUR IMAGES (Google Flow / Nanobanana2)\nStep 4 — Generate IMAGE 01\nCopy IMAGE 01 prompt\nGo to Google Flow (or Nanobanana2) and paste\nGenerate IMAGE 01 (empty mold)\nStep 5 — Generate IMAGE 02\nAdd the IMAGE 01 output as a reference image in the chat\nCopy and paste IMAGE 02 prompt\nGenerate IMAGE 02 (objects arranged inside mold)\nStep 6 — Generate IMAGE 03\nAdd the IMAGE 02 output as a reference image\nCopy and paste IMAGE 03 prompt\nGenerate IMAGE 03 (resin poured over objects)\nStep 7 — Generate IMAGE 04\nAdd the IMAGE 03 output as a reference image\nCopy and paste IMAGE 04 prompt\nGenerate IMAGE 04 (cured matte haze)\nStep 8 — Generate IMAGE 05\nAdd the IMAGE 04 output as a reference image\nCopy and paste IMAGE 05 prompt\nGenerate IMAGE 05 (rim removed, still matte)\nStep 9 — Generate IMAGE 06\nAdd the IMAGE 05 output as a reference image\nCopy and paste IMAGE 06 prompt\nGenerate IMAGE 06 (polished mirror shine)\nStep 10 — Generate IMAGE 07\nAdd the IMAGE 06 output as a reference image\nCopy and paste IMAGE 07 prompt\nGenerate IMAGE 07 (finished table in final room)\nPHASE 3: GENERATE YOUR VIDEO CLIPS (Google Veo / Seedance)\nStep 11 — Generate VIDEO CLIP 01\nAdd IMAGE 01 as Start Frame\nAdd IMAGE 02 as End Frame\nCopy and paste CLIP 01 video prompt\nGenerate the video (arranging objects inside mold)\nStep 12 — Generate VIDEO CLIP 02\nAdd IMAGE 02 as Start Frame\nAdd IMAGE 03 as End Frame\nCopy and paste CLIP 02 video prompt\nGenerate the video (pouring resin over objects)\nStep 13 — Generate VIDEO CLIP 03\nAdd IMAGE 03 as Start Frame\nAdd IMAGE 04 as End Frame\nCopy and paste CLIP 03 video prompt\nGenerate the video (curing timelapse)\nStep 14 — Generate VIDEO CLIP 04\nAdd IMAGE 04 as Start Frame\nAdd IMAGE 05 as End Frame\nCopy and paste CLIP 04 video prompt\nGenerate the video (rim removal step by step)\nStep 15 — Generate VIDEO CLIP 05\nAdd IMAGE 05 as Start Frame\nAdd IMAGE 06 as End Frame\nCopy and paste CLIP 05 video prompt\nGenerate the video (polishing to mirror shine)\nStep 16 — Generate VIDEO CLIP 06\nAdd IMAGE 06 as Start Frame\nAdd IMAGE 07 as End Frame\nCopy and paste CLIP 06 video prompt\nGenerate the video (carry to room + place on legs with camera cuts)\nStep 17 — Generate VIDEO CLIP 07\nAdd IMAGE 07 as Start Frame ONLY (no End Frame for this clip)\nCopy and paste CLIP 07 video prompt\nGenerate the video (final room showcase hero shot)\nPHASE 4: EDIT YOUR FINAL VIDEO (CapCut)\nStep 18 — Import to CapCut\nDownload all 7 video clips\nOpen CapCut and create a new project\nImport all 7 clips\nStep 19 — Arrange in Correct Order\nPlace clips on the timeline in this order:\nCLIP 07 — First 2 seconds only (hook/thumbnail to grab attention)\nCLIP 01 — Arranging objects\nCLIP 02 — Pouring resin\nCLIP 03 — Curing timelapse\nCLIP 04 — Rim removal\nCLIP 05 — Polishing\nCLIP 06 — Carry to room + place on legs\nCLIP 07 — Full version (ending reveal)\nStep 20 — Add Background Music\nAdd a satisfying ASMR lo-fi instrumental track\nMatch the music mood to the final room reveal\nStep 21 — Export & Upload\nExport in 9:16 vertical format\nUpload to Facebook Reels, TikTok, and YouTube Shorts\nREPEAT FOR UNLIMITED CONTENT\nRun this system again — the AI generates completely new random options every time. Different character, workshop, shape, design, and room combinations create unlimited unique videos. Generate 3-5 variations per week to build a massive content library.\nGrow with Rasindu",
+  "needs_review": true
+}

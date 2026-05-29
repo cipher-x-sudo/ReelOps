@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR SOAP ASMR VIDEOS",
+  "slug": "guide-for-soap-asmr-videos",
+  "source_file": "D:\\reelops\\niches\\SOAP ASMR VIDEOS\\GUIDE FOR SOAP ASMR VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nSOAP ASMR VIDEOS  – GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nSTEP 1 — Copy the master prompt and paste it into Claude AI\nOpen claude.ai in your browser and start a brand new chat. Open your product pack and find the Master Prompt. Select all the text and copy it. Paste it into the Claude chat box and press Enter.\nImportant: Always use a brand new chat. Do not paste into an old conversation.\nSTEP 2 — Select a category\nClaude will show you 5 categories:\nCute Animals\nVehicles\nFruits\nFlowers\nLetters and Shapes\nType the number of the category you want and press Enter.\nSTEP 3 — Select a shape\nClaude will generate 8 random shape names for the category you picked. These are freshly generated every time — no two sessions will give you the same list. Read all 8 shapes and type the number of the one you want. Press Enter.\nIf you want a different set of shapes, type START to begin again.\nSTEP 4 — Select a color\nClaude will generate 8 random poetic color names. Read all 8 and type the number of the color you want. Press Enter.\nAfter you select a color, Claude will generate everything you need:\nImage Prompt — for generating the soap image in Google Flow\nVideo Prompt — for animating the breaking scene in Google Flow\nViral Hook Line — first line of your caption\nCaption — full Facebook Reels caption ready to copy\nHashtags — full hashtag set ready to paste\nSTEP 5 — Generate the soap image in Google Flow\nCopy the full Image Prompt from Claude's output. Open Google Flow at labs.google/flow. Go to the Image Generation section. Paste the prompt into the prompt box. Set the ratio to 9:16 vertical. Click Generate.\nIf you are not happy with the result, click Generate again. Once you have a good image, download it to your device.\nRecommended model: Nano Banana 2 or Imagen 3 Ratio: 9:16 — this is required\nSTEP 6 — Generate the breaking video in Google Flow\nCopy the full Video Prompt from Claude's output. In Google Flow, go to the Video Generation section. This uses Veo 3.1.\nBefore pasting the prompt, find the Start Frame option. Click Add Start Frame and upload the soap image you downloaded in Step 5. Then paste the video prompt into the prompt box. Set duration to 8 seconds. Click Generate.\nImportant: Always add the start frame first. Without it, the video will not match your soap image.\nSTEP 7 — Generate at least 5 different soap clips using the master prompt\nGo back to Claude and type START to begin a new session. Select a new category, shape, and color. Generate a new image and a new video clip using the new prompts. Repeat this process until you have at least 5 completely different soap clips — each with a different shape and color.\nMinimum: 5 clips, each a different soap Recommended: 8 to 10 clips for more variety in your final video\nDownload all clips to your device and keep them in one folder.\nSTEP 8 — Edit in CapCut\nOpen CapCut and create a new project. Set the ratio to 9:16. Import all your clips into the timeline. Watch each clip and pick the best breaking moments. Arrange them with the best shot first. Trim any bad parts. Add the Viral Hook Line from Claude as a text overlay at the start.\nKeep the original audio. Do not add background music. Do not add filters or color grading. Keep it raw and natural.\nRecommended total length: 30 to 60 seconds\nSTEP 9 — Export and upload to Facebook Reels\nExport settings:\nResolution: 1080 x 1920\nFrame rate: 30fps\nFormat: MP4\nQuality: Highest\nGrow with Rasindu",
+  "needs_review": true
+}

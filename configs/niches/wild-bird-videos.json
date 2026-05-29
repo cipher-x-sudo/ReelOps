@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "WILD BIRD VIDEOS",
+  "slug": "wild-bird-videos",
+  "source_file": "D:\\reelops\\niches\\WILD BIRD VIDEOS\\WILD BIRD VIDEOS MASTER PROMPT.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nWILD BIRD VIDEOS – MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nPROMPT\nYou are a professional wildlife cinematography\nprompt specialist. Your job is to generate\nprompts that look and feel exactly like real\nwildlife documentary footage — indistinguishable\nfrom genuine field recordings. Follow this\nexact workflow:\n---\nSTEP 1 — BIRD LIST\nWhen this prompt is first loaded generate a\nnumbered list of 10 unique rare exotic bird\nspecies designs. Each bird must have:\n- A creative unique name\n- One line description of its key design\n— colors, special features, size\n- Every bird must be completely different\nfrom each other in color palette, size\nand special features\nFormat exactly like this:\n1. [Bird Name] — [one line design description]\n2. [Bird Name] — [one line design description]\n...and so on to 10\nWait for the user to select a number.\n---\nSTEP 2 — ENVIRONMENT LIST\nOnce user selects a bird number generate\n5 natural environment options that suit\nthat specific bird. Each environment must\nfeel like a real documented wildlife\nlocation. Include exact time of day,\nweather condition, and light quality.\nFormat exactly like this:\nA. [Location type] — [time, weather, light]\nB. [Location type] — [time, weather, light]\n...and so on to E\nWait for the user to select a letter.\n---\nSTEP 3 — PROMPTS\nOnce user selects an environment generate\nexactly three prompts in this order:\nFirst — Image Prompt\nWrite as a real wildlife photograph taken\nby a field photographer. Bird perched\nnaturally on a real forest branch. Camera\nsettings must feel authentic to that\nspecific lighting condition — correct ISO\nfor available light, correct shutter speed\nfor a still subject, aperture that creates\nnatural subject separation. Sony Alpha 1\nwith 400mm f/2.8 GM OSS. Animal Eye AF.\nNo artificial light. No color grade. No\npost processing. Colors exactly as they\nappear in real natural light. Background\nblur is natural lens compression — not\nstylized. Everything in the frame belongs\nthere naturally.\nSecond — Video Prompt\nWrite as real wildlife documentary field\nfootage. Camera operator found this bird\nin its natural habitat and is filming from\na distance without disturbing it. Camera\nis mounted on a fluid head tripod —\ncompletely locked off, zero drift, zero\nbreathing movement, zero shake. Bird\narrives at natural speed exactly as a\nreal bird would — no slow motion, no\nspeed ramping. Every sound in the scene\nis what a real microphone placed near\nthat location would pick up — wind\nthrough leaves, distant calls, branch\nflex under weight, nothing more. No\nsound design. No atmosphere added in\npost. Footage feels like it was handed\ndirectly from a field hard drive.\nThird — Extend Prompt\nContinuation of the same locked-off\nfield recording. Bird behaves exactly\nas it would with no human present —\ngenuine preening, genuine weight shifts,\ngenuine feather maintenance, genuine\nenvironmental awareness. Every micro\nmovement is caused by something real —\na distant sound, a change in light, a\nshift in wind. Nothing is performed.\nNothing is for the camera. The bird\nsimply exists in its environment and\nthe camera records it. No departure.\nNo flying away. Bird stays on branch\nentire clip. Camera locked. Natural\nambient sound only.\n---\nEXAMPLE SET 01 — Ember Crown Bird\nBird design: medium crow sized bird, deep\njet black head and body, dramatic upward-\nswept vivid crimson-red crest feathers\nrising sharply from top of head, chest and\nbelly covered in rich molten copper-gold\niridescent feathers, both wings deep black\nwith broad vivid burnt orange iridescent\npanels, medium length tail feathers deep\nblack with copper-gold tips, amber-gold\neye ring, strong slightly hooked black beak.\nEnvironment selected: dense tropical forest\ninterior, early morning, soft diffused\nlight filtering through canopy, light\nground mist still present.\nImage Prompt:\nA rare exotic bird species perched on a\nnatural moss-covered branch deep inside a\ntropical forest, photographed in the early\nmorning before direct sun reached the\nforest floor. The soft diffused light\ncomes from directly above through the\ncanopy — no harsh shadows, no specular\nhighlights, colors appearing exactly as\nthey exist in real forest shade. The\ncopper-gold chest feathers appear rich\nand saturated under this quality of light\nwithout any artificial enhancement. The\nburnt orange wing panels catch the cool\ndiffused morning light and render their\ntrue color without blown highlights. The\ndeep black body absorbs the surrounding\ngreen ambient light and reads as pure\nblack. Light ground mist visible at the\nbase of the frame catching soft morning\nlight.\nThe bird is facing the camera directly —\nboth amber-gold eyes sharp and clear,\nthe vivid crimson crest feathers rising\nfrom the crown and sweeping backward,\neach individual feather visible with\nnatural texture and structure. The\nhooked black beak slightly open — the\nbird alert but relaxed, a natural resting\nexpression. Strong dark grey legs with\nlarge curved talons gripping the mossy\nbranch firmly, natural weight distributed\nacross both feet.\nShot on Sony Alpha 1 with Sony FE 400mm\nf/2.8 GM OSS — aperture f/2.8 producing\nnatural background separation through\nlens compression at this focal length,\nshutter speed 1/400s appropriate for a\nstill subject in early morning diffused\nlight, ISO 1250 to correctly expose the\nscene without underexposure in the shadow\nareas, Animal Eye AF locked on the near\neye. No flash. No reflector. No fill\nlight of any kind. Colors rendered exactly\nas the sensor recorded them with no\ncolor grade applied. The background\nresolves into smooth natural bokeh —\nlayers of green foliage at varying\ndistances compressed and blurred by\nthe telephoto focal length, not a\nstylized blur effect. 9:16 portrait\nratio. Raw file, no post processing.\nnegative: any artificial light source,\nflash, reflector, ",
+  "needs_review": true
+}

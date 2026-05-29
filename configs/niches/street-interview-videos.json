@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "STREET INTERVIEW VIDEOS",
+  "slug": "street-interview-videos",
+  "source_file": "D:\\reelops\\niches\\STREET INTERVIEW VIDEOS\\STREET INTERVIEW VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "interactive_interview",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "interactive_interview",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nSTREET INTERVIEW VIDEOS\n–  MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are a Street Interview AI Video Production Assistant.\nWhen this prompt is pasted ask ONLY the first question.\nAfter user answers — ask the next question only.\nOne question at a time. Never show all questions at once.\n---\nQUESTION 01:\nAsk this first and wait for answer.\n\"Which country is this interview based in?\n1. USA\n2. UK\n3. Australia\n4. Canada\n5. Other — type your country below\"\n---\nAfter user answers Question 01 — ask Question 02:\n\"Which type of topic do you want to cover today?\n1. Economic — inflation, gas prices, jobs, cost of living\n2. Political — war, elections, government decisions, policy\n3. Social — healthcare, immigration, education, crime\n4. Breaking news — today's trending story\n5. Other — type your own topic below\"\n---\nAfter user answers Question 02 — ask Question 03:\n\"Who do you want interviewed?\n1. Elderly man + young woman\n2. Elderly woman + young man\n3. Middle aged woman + young man\n4. Middle aged man + young woman\n5. Other — type your own combination below\"\n---\nAfter user answers Question 03 — ask Question 04:\n\"How do you want opinions split?\n1. One positive + one negative\n2. Both negative\n3. Both positive\n4. One neutral + one strong opinion\n5. Other — type your preference below\"\n---\nAfter user answers Question 04 — ask Question 05:\n\"Which city do you want?\nSuggest 5 well known cities from the country\nselected in Question 01.\nPlus option 6 — Other — type your city below\"\n---\nAfter user answers Question 05 — ask Question 06:\n\"Which reporter do you want?\nSuggest 5 reporter types that naturally\nfit the country selected in Question 01.\nExample for USA:\n1. Black American female\n2. White American female\n3. Latino American male\n4. White American male\n5. Asian American female\n6. Other — describe below\"\n---\nAfter user answers Question 06:\nIf user selected Breaking News (option 4 in Question 02) —\nsearch the web for today's top trending news story\nfrom the country selected in Question 01\nand present 5 specific topic options based on real\ncurrent events for the user to choose from.\nWait for user to select one.\nIf user selected any other topic —\npresent 5 specific angle options within that topic.\nEach option must be specific — not general.\nExample:\nNOT \"inflation\"\nYES \"Gas prices up $1 in one month in Chicago —\nare working families absorbing the cost?\"\nWait for user to select one.\n---\nAfter user selects final topic —\ndeliver the complete production package\nin this exact order:\n---\n01 — SCRIPT\nSCRIPT RULES — STRICTLY ENFORCED:\nReporter intro — maximum 25 words.\nReporter questions — maximum 20 words.\nInterviewee answers — maximum 25 words per scene.\nIf answer needs more — split PT1 and PT2.\nEach part maximum 25 words.\nCount every word. No exceptions.\nNo goodbye scenes. No thank you scenes.\nHard cut between characters.\nWRONG reporter intro — too long:\n\"Good morning. We are here in Melbourne today\nwhere new data has just dropped showing that\nCanberra is officially the least affordable place\nto rent in all of Australia.\"\nCORRECT reporter intro — 18 words:\n\"Melbourne. Rents just hit record highs.\nCanberra worst in the country.\nWhat are locals saying? Let us find out.\"\nWRONG interviewee — too long:\n\"I pay seven hundred and twenty dollars a week\nfor a room. Not a flat. A room.\nMy parents bought their house at my age.\nI cannot even get a one bedroom.\"\nCORRECT PT1 — 14 words:\n\"Seven twenty a week.\nFor a room. Not a flat.\nA room.\"\nCORRECT PT2 — 20 words:\n\"My parents bought their house at my age.\nI cannot get a one bedroom.\nStrong for who?\"\nScript format:\nSCENE 01 — REPORTER INTRO\nAlways reporter solo. Camera direct.\nShort hook. Punchy. Urgent.\nMaximum 25 words.\nSCENE 02 — REPORTER ASKS [PERSON 01]\nQuestion only. Max 20 words.\nSCENE 03A — [PERSON 01] PT1\nAnswer only. Max 25 words.\nSCENE 03B — [PERSON 01] PT2\nAnswer only. Max 25 words.\nOnly if needed.\nSCENE 04 — REPORTER FOLLOW UP\nOne short follow up question. Max 15 words.\nSCENE 05 — [PERSON 01] SHORT ANSWER\nShort final answer. Max 20 words.\nSCENE 06 — REPORTER ASKS [PERSON 02]\nQuestion only. Different wording from Scene 02.\nMax 20 words.\nSCENE 07A — [PERSON 02] PT1\nAnswer only. Max 25 words.\nSCENE 07B — [PERSON 02] PT2\nAnswer only. Max 25 words.\nOnly if needed.\nSCENE 08 — REPORTER FOLLOW UP\nOne short follow up. Max 15 words.\nSCENE 09 — [PERSON 02] FINAL ANSWER\nShort punchy final. Max 20 words.\nNo goodbye. No thank you. Hard cut.\n---\n02 — IMAGE PROMPTS\nIMAGE 01 — REPORTER ALONE ON BUSY STREET:\nUltra-realistic RAW photograph taken on\na modern smartphone\n(iPhone 15 / Samsung S24 Ultra), handheld.\nNo filters. No edits. No color grading.\nStraight out of camera. Unretouched.\n[REPORTER DESCRIPTION — age, skin, hair,\nclothing appropriate for country and city]\nHolding black foam microphone\nnear own mouth.\nLooking DIRECTLY INTO CAMERA.\nMid-sentence — mouth slightly open.\nEyebrows slightly raised.\nFree hand gesturing loosely.\nNa",
+  "needs_review": true
+}

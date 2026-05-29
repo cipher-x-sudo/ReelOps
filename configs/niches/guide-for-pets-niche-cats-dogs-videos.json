@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR PETS NICHE (CATS & DOGS) VIDEOS",
+  "slug": "guide-for-pets-niche-cats-dogs-videos",
+  "source_file": "D:\\reelops\\niches\\PETS NICHE (CATS & DOGS) VIDEOS\\GUIDE FOR PETS NICHE (CATS & DOGS) VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nPETS NICHE (CATS & DOGS) VIDEOS\n– GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\n================================================\nVIRAL PET VIDEO — STEP BY STEP WORKFLOW\n================================================\nSTEP 01 — MASTER PROMPT\n================================================\nOpen Claude AI or ChatGPT.\nCopy the master prompt and paste it in.\nThe AI will ask — Which niche? Dogs or Cats?\nType your niche.\n================================================\nSTEP 02 — TOPIC SELECT\n================================================\nThe AI gives you 10 video ideas.\nType the number of the idea you like most.\nThe AI gives you the script and scene breakdown.\n================================================\nSTEP 03 — CHARACTER SELECT\n================================================\nThe AI asks — Shall I create prompts?\nType YES.\nThe AI gives you several character ideas.\nType the number of the character you want.\nThe AI gives you:\n- Character image prompt\n- Scene prompts for every scene\n================================================\nSTEP 04 — CHARACTER IMAGE\n================================================\nCopy the character image prompt.\nOpen Google Gemini.\nPaste the prompt and generate the image.\nDownload the best result.\nCheck before moving forward:\n- Head straight. Eyes looking directly into camera.\n- Skin looks real. Every wrinkle visible.\n- Pet looks natural. Not posed.\n- Image is 9:16 vertical.\n================================================\nSTEP 05 — VIDEO GENERATION\n================================================\nOpen Google Flow.\nFor every scene follow these steps:\n1. Upload the character image as the Start Frame.\n2. Upload the same character image as the End Frame.\n3. Copy the scene prompt from the AI and paste it in.\n4. Click Generate.\n5. Download the clip and save it with the scene number.\nExample: scene_01.mp4\nRepeat this for every scene.\nTIP:\nUsing the same character image for both\nStart Frame and End Frame keeps your character\nlooking consistent across all scenes.\n================================================\nSTEP 06 — FINAL EDIT IN CAPCUP\n================================================\nOpen CapCut.\nSet the project to 9:16 vertical.\nDo these things in order:\n1. Add all scene videos in the correct order.\n2. Add captions.\nIf you use auto-caption,\nmanually check and correct every single line.\nExport the audio track only first.\nGo to Export settings and select audio only.\nDownload as MP3 or WAV.\nYou will need this for the next step.\n================================================\nSTEP 07 — VOICE CONSISTENCY\n================================================\nIf your voice sounds inconsistent across scenes,\nfollow these steps to fix it.\nSTEP 07A — GET VOICE DESIGN PROMPT\nCome back to this chat.\nTell Claude or ChatGPT:\n\"Give me an ElevenLabs voice design prompt\nunder 1000 characters for my character.\"\nThe AI will give you a voice prompt\nthat matches your character perfectly.\nSTEP 07B — DESIGN THE VOICE IN ELEVENLABS\nOpen ElevenLabs.\nGo to Voice Design.\nPaste the voice prompt.\nDesign and save the voice.\nSTEP 07C — USE ELEVENLABS VOICE CHANGER\nStay in ElevenLabs.\nGo to Voice Changer.\nUpload the audio file you exported from CapCut.\nSelect the voice you just designed.\nElevenLabs will convert the entire audio\ninto your new consistent voice.\nDownload the new audio file.\nSTEP 07D — REPLACE AUDIO IN CAPCUP\nGo back to CapCut.\nRemove the original audio track.\nAdd the new consistent audio file\ndownloaded from ElevenLabs.\nExport the final video as MP4. 1080x1920. 30fps.\n================================================\nSTEP 08 — POST ON FACEBOOK\n================================================\nGet your caption from the AI.\nOpen your Facebook page.\nUpload the video.\nPaste the caption.\nChoose a thumbnail from Scene 01 showing\nthe character's face looking at camera.\nPost it.\nReply to every comment within the first 60 minutes.\n================================================\nFULL WORKFLOW — QUICK VIEW\n================================================\nMaster Prompt\n|\nNiche Select — Dogs or Cats\n|\n10 Topic Ideas — Pick 1\n|\nScript + Scene Breakdown\n|\nCharacter Ideas — Pick 1\n|\nCharacter Image Prompt + Scene Prompts\n|\nGoogle Gemini — Generate Character Image\n|\nGoogle Flow — Generate Scene Videos\nStart Frame + End Frame = same character image\n|\nCapCut — Arrange Scenes + Captions\nExport audio only\n|\nElevenLabs Voice Design — Design matching voice\nElevenLabs Voice Changer — Upload audio + apply voice\nDownload consistent audio\n|\nCapCut — Replace audio + Final Export\n|\nFacebook — Post + Reply to comments\n================================================\nTIME PER VIDEO\n================================================\nMaster prompt and script:        15 minutes\nCharacter image:                 10 minutes\nScene videos:                    60 to 90 minutes\nCapCut edit and captions:        20 minutes\nElevenLabs voice:                15 minutes\nFinal export and post:          ",
+  "needs_review": true
+}

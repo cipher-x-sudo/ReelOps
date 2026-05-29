@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR MECHANICAL TOY VIDEOS",
+  "slug": "guide-for-mechanical-toy-videos",
+  "source_file": "D:\\reelops\\niches\\MECHANICAL TOY VIDEOS\\GUIDE FOR MECHANICAL TOY VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "start_end_frame_sequence",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "start_end_frame_sequence",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nMECHANICAL TOY VIDEOS\n–  GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nStep 1 — Setup\nCopy the Master Prompt below and paste it into Claude as a new conversation. The generator will start automatically and show you 20 categories to pick from.\nStep 2 — Pick a Category\nType a number from 1 to 20, type your own custom subject, or say \"more\" to get fresh categories. The generator will give you 6 models with 3 prompts each.\nStep 3 — Generate Image 1 (Compact Device)\nCopy IMAGE PROMPT 1 from any model you like. Go to OpenArt, select Nano Banana 2, paste the prompt, and generate. This is your capsule image — the closed mechanical pod before transformation.\nStep 4 — Generate Image 2 (Fully Transformed)\nTake the image you generated in Step 3 and add it as a reference image. Then copy IMAGE PROMPT 2 from the same model, paste it as the prompt, and generate. This is your final transformed mechanical toy.\nStep 5 — Generate the Video\nNow you have two images. Go to Kling 3.0 on OpenArt. Add Image 1 (capsule) as the Start Frame and Image 2 (transformed) as the End Frame. Copy the VIDEO PROMPT from the same model, paste it as the prompt, and generate. This creates the full transformation video from capsule to mechanical toy.\nStep 6 — Repeat\nGo back to Claude and pick another model or another category. Every time you pick the same category again, you get completely new models with fresh prompts.\nGrow with Rasindu",
+  "needs_review": true
+}

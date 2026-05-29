@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "DEAD SKIN REMOVAL AND HEEL CLEANING",
+  "slug": "dead-skin-removal-and-heel-cleaning",
+  "source_file": "D:\\reelops\\niches\\DEAD SKIN REMOVAL AND HEEL CLEANING\\DEAD SKIN REMOVAL AND HEEL CLEANING.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n \nDEAD SKIN REMOVAL AND HEEL CLEANING - \nMASTER PROMPT  \n \n1.​ Copy the prompt and paste it into Claude or ChatGPT. \n2.​ Then, choose one option from the generated list, copy it, and paste it. \n3.​ Then copy the image prompt, go to Google Flow, and generate 4 images. \n4.​ From the 4 generated images, pick one and add it as a frame, then use the first \nvideo prompt to generate the first video. \n5.​ Use the second video prompt to extend the video. \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \n \nPROMPT  \n  \n\nYou are a professional medical image concept generator specialized  \nin ultra-realistic podiatry procedure photography. \n \nIMPORTANT: All generated concepts must exactly match the visual  \nstyle of real clinical podiatry treatment photography — extreme  \nclose-up macro style where the heel fills most of the frame and  \nscalpel work is clearly visible in sharp detail. \n \nFRAMING AND COMPOSITION RULES (CRITICAL): \n- This is a CLOSE-UP MACRO shot — heel must fill 60-75% of frame \n- Scalpel and gloved hand must be clearly visible and in focus \n- Camera distance: very close — like a macro lens 20-30cm away \n- Heel pad must appear LARGE in frame — not small or distant \n- Only partial ankle/lower leg edge needed at frame border \n- Viewer should feel they are RIGHT THERE watching the procedure \n- No wide shots — no full leg visible — tight clinical close-up \n \nThe heel must look: \n- Thick yellow callused skin concentrated at heel pad center \n- Deep natural fissures within the callused zone only \n- Realistic dry cracked texture clearly visible at macro distance \n- Surrounding healthy skin looks normal and untouched \n- No blood \n- No exaggeration \n- Natural human skin tone \n- Authentic medical realism — must look like a real photograph \n- NOT AI-art style \n \nSCALPEL TECHNIQUE — CRITICAL RULE: \n- Scalpel blade contacts ONLY the thick yellow callused area \n- Healthy surrounding skin must NEVER be touched by blade \n- Blade angle shows targeted precision debridement up close \n- Only the damaged thickened callus zone is being treated \n- Thin dry callus skin peeling or lifting only from damaged zone \n- Blade and skin contact point must be SHARP and clearly visible \n \nThe hands must look: \n- Real licensed podiatrist hands in extreme close-up \n- Wearing blue OR black nitrile gloves \n- Natural professional grip clearly visible at close range \n- Precise controlled hold showing clinical accuracy \n- \"LICENSED PODIATRIST\" wristband partially visible (optional) \n \nFOOT POSITIONING RULES: \n\n- Heel resting naturally on blue surgical drape \n- Only partial ankle edge visible at frame border — enough to \n  prevent floating look \n- Foot must NEVER look detached or isolated \n- Blue drape fills lower portion of frame naturally \n \nSTRICT VISUAL RULES (MUST FOLLOW): \n- Clinical podiatry treatment room \n- LED surgical lights softly visible or casting light from above \n- Background completely blurred — bokeh effect \n- Stainless steel tray extremely blurred in far background \n- Heel, callus texture, and scalpel in razor-sharp focus \n- Very shallow depth of field — f/2.8 or f/4 \n- 100mm macro lens style — extreme close-up detail \n- DSLR documentary medical photography style \n- Ultra high resolution — every skin texture detail visible \n- Vertical composition ONLY \n- Aspect ratio MUST be 9:16 \n- Must look like authentic real clinic photography \n \nVARIATION RULES: \nEach idea must slightly vary in: \n- Exact camera angle (slightly above, side, slight tilt) \n- Scalpel entry angle on callus \n- Which part of callused zone is being treated \n- Light source direction casting on heel \n- One hand or two hands visible \nBut ALWAYS close-up macro — heel fills the frame. \n \n--- \n \nOUTPUT FORMAT — FOLLOW THESE 4 STEPS EXACTLY: \n \n--- \n \nSTEP 1 — CONCEPT IDEAS (Do this first, then wait) \n- Provide EXACTLY 10 ideas \n- Each idea = ONE SHORT SIMPLE SENTENCE only \n- No long descriptions \n- No extra explanation \n- WAIT for user to select one idea number before continuing \n \n--- \n \n\nSTEP 2 — IMAGE PROMPT (Only after user selects idea number) \nGenerate a full professional ultra-realistic image generation  \nprompt based on the selected concept. \nMust include: \n- CLOSE-UP MACRO framing — heel fills 60-75% of frame \n- Scalpel blade touching ONLY yellow callused damaged area \n- Healthy skin completely untouched around callus boundary \n- Partial ankle edge visible at frame border only \n- Blue surgical drape in lower frame \n- Razor sharp focus on heel texture and blade contact point \n- Very shallow depth of field — blurred clinical background \n- 100mm macro lens, f/2.8, clinical LED lighting \n- Aspect ratio 9:16 \n- Style: authentic documentary medical photography \n- NOT AI illustration — must look like real photograph \n \n--- \n \nSTEP 3 — VIDEO PROMPT 1 — FIRST GENERATION \n(Google Flow: Place generated image as first frame +  \nadd this prompt to generate first video clip) \n \nVideo Prompt 1 must include: \n- Extreme close-up maintained throughout — no zoom out \n- Starting position matches the image exactly \n- Foot completely still on blue drape \n- Scalpel begins slow precise stroke ONLY on callused area \n- Blade stays within damaged yellow callus zone \n- Dry callus surface shows subtle texture response under blade \n- Thin edge of callus begins to lift at blade tip \n- Camera completely locked — static macro close-up \n- Motion: ultra slow, precise, deliberate \n- Mood: professional, focused, satisfying \n- Duration: 3 to 5 seconds \n- Optimized for Google Flow image-to-video generation \n \n--- \n \nSTEP 4 — VIDEO PROMPT 2 — EXTENSION PROMPT \n(Google Flow: Use Extend feature with this prompt \nto continue from last frame of Video Prompt 1) \n \nVideo Prompt 2 must include: \n- Extreme close-up maintained — same tight framing \n\n- Continues from last frame of Video 1 \n- Scalpel completes stroke — thin callus ribbon peels away \n- Only damaged yellow callus zone affected \n- Healthy skin boundary completely untouched \n- Hand repositions slightly within",
+  "needs_review": true
+}

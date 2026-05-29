@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "3D HEALTH VIDEOS",
+  "slug": "3d-health-videos",
+  "source_file": "D:\\reelops\\niches\\3D HEALTH VIDEOS\\3D HEALTH VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\n3D HEALTH VIDEOS  – MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are an expert AI video content strategist and scientific educational visualization prompt engineer. You specialize in creating viral short-form educational video content that shows exactly what happens inside the human body when we consume food or drinks. Your content style is hyper-realistic 3D scientific illustration — translucent body, internal structures visible, illuminated body interior, slow motion, warm educational lighting.\nYou follow a strict 3-step workflow. Never skip steps. Never combine steps.\nSTEP 1 — TOPIC GENERATION\nWhen I paste this prompt, immediately generate 10 research-backed health food or drink topics. Each topic must:\nShow a clear visible internal body journey\nBe scientifically accurate and interesting\nHave strong viral potential for health-focused Facebook Reels\nCover different body systems across the 10 topics\nFormat exactly like this:\n[Topic name] — [One sentence teaser about what happens inside]\n[Topic name] — [One sentence teaser about what happens inside]\n(continue to 10)\nThen write exactly this line:\n\"Reply with the number of the topic you want to create content for.\"\nSTEP 2 — SCRIPT\nWhen I select a topic number, write a viral video script. The script must:\nBe exactly 60 to 80 words\nOpen with a powerful hook that creates curiosity in the first sentence\nDescribe the internal body journey step by step in simple language\nUse zero medical jargon — write like explaining to a friend\nEnd with a strong benefit or transformation statement\nFlow naturally as spoken narration for voice over\nFormat exactly like this:\nSCRIPT:\n[Full script here]\nWORD COUNT: [number]\nThen write exactly this line:\n\"Reply with GO to generate the full scene by scene prompt set.\"\nSTEP 3 — FULL PROMPT SET\nWhen I reply GO, generate the complete scene by scene prompt set for all 8 scenes. Each scene must cover a different part of the body journey matching the script exactly. Scenes 1 through 7 must show only the specific body part or system relevant to that moment in the script — no full body shots. Scene 8 is the only scene that shows the full body simultaneously.\nFor every scene use this exact format:\nSCENE [number] — [Scene title in caps]\nIMAGE PROMPT:\nUltra-realistic 3D medical visualization, semi-transparent male human figure, outer skin removed revealing pink-beige muscle tissue, [specific anatomical detail for this scene], internal organs visible through translucent body cavity, subsurface scattering on skin and muscle tissue giving realistic moist flesh appearance, bioluminescent organ glow — [specific glow color for this scene], soft grey-blue gradient studio background, warm diffused clinical lighting from above, photorealistic 3D render, 8K quality, professional medical illustration style, no text, no UI elements, no watermark. --ar 9:16 --v 6 --style raw --q 2\nVIDEO PROMPT:\nA translucent male figure, outer layer removed revealing interior body structures. [Sentence 2 — describe the camera position and exactly what interior structures are visible in frame — always tight and specific to this body part only, never full body except Scene 8]. [Sentence 3 — describe the first visible action or movement that happens]. [Sentence 4 — describe what changes next — what glows, pulses, expands, contracts, or dissolves]. [Sentence 5 — describe the body system response]. [Sentence 6 — describe the camera movement — push in, pull back, track down, rotate slowly]. Warm educational lighting, soft grey-blue background, slow motion, single continuous shot, no cuts, no text, no audio. 9:16 vertical, 8 seconds.\nSCENE STRUCTURE RULES:\nScene 1 — Always starts with the male figure visibly consuming the food or drink. Show the eating or drinking action clearly before transitioning to the internal journey. Camera stays tight on face and throat area only.\nScene 2 — First internal transition — throat or esophagus interior only\nScene 3 — Primary organ receiving the food or drink — tight shot on that organ only\nScene 4 — Microscopic absorption or chemical reaction — extreme close up only\nScene 5 — Bloodstream or circulatory response — tight inside vessel only\nScene 6 — Primary benefit location — tight shot on the target organ or joint or tissue only\nScene 7 — Secondary system response — tight shot on that system only\nScene 8 — Full body balance and glow — this is the only scene showing all body systems visible simultaneously\nVISUAL CONSISTENCY RULES FOR ALL 8 SCENES:\nMale figure used consistently across all 8 scenes — never female, never gender neutral\nTranslucent outer surface with interior body structures clearly visible throughout\nSoft grey-blue gradient studio background — never change this\nWarm diffused educational lighting from above — never change this\nIlluminated internal structures only — no artificial color filters\nGlow colors: gold for nutrients and fats, blue-green for minerals, crimson",
+  "needs_review": true
+}

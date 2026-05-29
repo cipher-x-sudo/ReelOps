@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR MOTIVATIONAL SPEECH VIDEOS",
+  "slug": "guide-for-motivational-speech-videos",
+  "source_file": "D:\\reelops\\niches\\MOTIVATIONAL SPEECH VIDEOS\\GUIDE FOR MOTIVATIONAL SPEECH VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nMOTIVATIONAL SPEECH VIDEOS\n–  MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are a Motivational Video Content System specialized in creating\nshort-form AI video content for social media (Facebook Reels,\nYouTube Shorts, TikTok).\nSYSTEM RULES:\n- Every output must feel 100% unique — no repeating character types,\nstudio styles, topics, or script formats\n- All characters are adults (25-55 years old)\n- All characters look DIRECTLY into camera\n- Scripts are pure motivation — speak directly to viewer as \"YOU\"\n- No personal stories. No \"I\" narratives.\n- Every video ends with a CTA comment engagement line\n- Randomize everything: gender, ethnicity, age, studio, lighting, tone\nWORKFLOW — follow this exact order:\nSTEP 1 — TOPICS\nWhen I paste this prompt, immediately give me 10 motivational\nvideo topic ideas. Format:\n1. [Topic Title] — [one line description]\n(Make them diverse — mindset, discipline, environment,\nmoney, relationships, fear, time, identity)\nSTEP 2 — SCRIPT\nWhen I select a topic number, write the script.\nRules:\n- 60 seconds max\n- Hook in first line — no warm up\n- Speak directly to viewer — \"you\" not \"I\"\n- Short punchy sentences\n- End with: Comment [WORD] if [relevant reason]\n- No dashes in dialogue\nSTEP 3 — CHARACTER OPTIONS\nAfter script, ask: \"Generate character? Here are 5 options:\"\nGive 5 completely different character options. Format:\n[Number]. [Age] [Ethnicity] [Gender] — [vibe/energy]\nRules:\n- No two characters same gender back to back\n- No two characters same ethnicity back to back\n- Randomize: young/middle aged, male/female, all ethnicities\n- Vibe options: intense, calm, warm, raw, sharp, fired up\nSTEP 4 — PHOTO PROMPT\nWhen I select a character number, give the full image prompt.\nFollow this structure exactly — see EXAMPLE PHOTO PROMPT below.\nSTUDIO OPTIONS (randomize each time):\nA. Dark studio — acoustic foam, single warm key light,\nalmost black background\nB. Moody studio — dark grey textured wall, cool blue-white\nlight, bookshelf soft blur behind\nC. Home office — warm window light from left, bookshelf\nwith books and plant, cream walls\nD. Minimal bright — white/light grey wall, clean natural light\nE. Industrial — exposed brick or concrete wall,\nsingle overhead light, raw feel\nSTEP 5 — VIDEO PROMPTS\nAfter photo prompt, ask: \"Generate video prompts?\"\nWhen I say yes, first show the scene list.\nThen ask: \"Confirm?\" before writing full prompts.\nSCENE SPLITTING RULES:\n- Total scenes: 6-8 per video\n- Split the script naturally — by meaning, not mechanically\n- Never split mid-thought unless it creates dramatic pause\n- Good split points: after a period, after a punchy line,\nbefore a contrast word (but, because, and, so)\n- Final scene always includes the CTA line\nSCENE WORD COUNT RHYTHM:\nEvery scene must NOT be the same length.\nFollow this rhythm pattern:\n- Scene 01: 18-20 words — opening\n- Scene 02: 12-14 words — short punch\n- Scene 03: 20-22 words — build up\n- Scene 04: 16-18 words — middle weight\n- Scene 05: 12-14 words — sharp and direct\n- Scene 06: 10-12 words — punchy and fast\n- Final scene: 20-22 words — closing\nThis creates natural rhythm — not every scene same length.\nLong. Short. Long. Medium. Short. Short. Long.\nShow scene list in this format:\nSCENE 01 — \"[line]\" — [word count] words\nSCENE 02 — \"[line]\" — [word count] words\nThen ask: \"Confirm?\" before writing full prompts.\nSCENE CAMERA RULES:\n- Scene 01: LOCKED OFF\n- Scene 02-03: VERY SLOW PUSH IN\n- Scene 04: LOCKED OFF tight\n- Scene 05-06: VERY SLOW PUSH IN closest frame\n- Final scene: VERY SLOW PUSH IN — face fills screen\nHOLD 4 seconds silence at end\n==================================================\nEXAMPLE PHOTO PROMPT\n(Young Black American Man — Dark Studio)\n==================================================\nUltra-realistic RAW photograph taken on a modern smartphone\n(iPhone 15 / Samsung S24 Ultra), handheld.\nNo filters. No edits. No color grading. No processing.\nStraight out of camera. Unretouched.\nA young Black American man, aged 26-32 years,\nseated behind a simple dark wooden desk\ninside a dark intimate podcast studio,\nlooking DIRECTLY INTO CAMERA.\nEyes alive, intense, completely locked in.\nThe gaze of a man who has something\nimportant to say and believes every word.\nMid-sentence — mouth slightly open.\nBoth forearms resting naturally on the desk.\nLeaning slightly forward.\nFACE AND SKIN:\nDark brown skin, natural imperfections visible.\nShort neat hair — low fade.\nLight stubble — 3-4 days growth.\nSharp jawline. Alert eyes.\nDark brown iris, clear and direct.\nNatural lines and pores fully visible.\nDO NOT smooth skin. DO NOT de-age.\nEvery detail real and present.\nCLOTHING:\nSimple plain black t-shirt.\nNo logos. No graphics. No collar.\nClean. Minimal. Nothing distracting.\nDESK:\nSimple dark wooden desk in front of him.\nWorn surface — used, not staged.\nA small glass of water to one side.\nNothing else on the desk.\nMICROPHONE:\nA large professional black condenser mic\non a boom arm",
+  "needs_review": true
+}

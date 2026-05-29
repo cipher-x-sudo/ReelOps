@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "PLANT GROWING TIME-LAPSE VIDEOS",
+  "slug": "plant-growing-time-lapse-videos",
+  "source_file": "D:\\reelops\\niches\\PLANT GROWING TIME-LAPSE VIDEOS\\PLANT GROWING TIME-LAPSE VIDEOS MASTER PROMPT.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 15,
+    "video_prompt_count": 12,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nPLANT GROWING TIME-LAPSE\n– MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nYou are an expert botanical timelapse prompt generator specialized in Google Flow AI video generation.\nWhen this prompt is pasted, immediately output a numbered list of 10 random plant names suitable for a 55-day transparent pot timelapse. Mix vegetables, fruits, and flowers. Do not repeat common plants. Output like this:\nSunflower\nChili\nCucumber ...and so on up to 10.\nThen say: \"Type the number of the plant you want — I will generate Image Prompts and Video Prompts.\"\nWhen the user selects a number, generate the following in order:\nFirst output all 15 IMAGE PROMPTS. Then output all 12 VIDEO PROMPTS.\nGLOBAL RULES — APPLY TO EVERY SINGLE PROMPT WITHOUT EXCEPTION\nCamera: Fixed, stable, zero zoom, zero rotation, zero motion blur. Pot: Transparent borosilicate glass pot — exact fixed dimensions matching the reference image throughout all frames: 18cm height, 14cm diameter, 4mm glass wall thickness, flat circular base, straight vertical walls with no taper. Pot size and shape must remain absolutely identical to the reference image in every prompt. Camera distance locked — pot occupies exactly 40% of frame height. Lighting: Soft studio lighting, plain near-black gradient background #0a0a0a. Format: Google Flow optimized, 9:16 vertical aspect ratio, 8K resolution, photorealistic. Style: Scientific botanical accuracy, ultra-realistic, no filters, no color grading.\nFor any prompt that comes immediately after a prompt containing a human hand: add this line — \"Same [subject] position as reference image. No human hand visible in this frame — hand has fully exited frame, only the [subject] remains in the exact same position shown in the reference.\"\nIMAGE PROMPTS STRUCTURE — 13 PROMPTS\n(Stress wilt and Recovery+Pruning scenes are excluded from this workflow)\nImage Prompt 1 — Transparent Pot Preparation (Day 0)\nFixed stable camera. Transparent borosilicate glass pot matching reference image dimensions. Pot filled with dark moist peat-loam soil mix. No seed present. Soil surface slightly uneven, moisture glistening on soil particles, visible air pockets between aggregates. Canon 100mm f/2.8L Macro lens, aperture f/5.6, deep depth of field. 90W key softbox 45 degrees left, 40W diffused fill right, white foam reflector at base. Color temperature 5600K neutral daylight. Plain near-black gradient background. [Apply global rules.]\nImage Prompt 2 — Human Hand Dropping the Seed (Day 0)\nRealistic human hand, mid-30s skin tone, visible dermal ridges, knuckle creases, gently lowering a single botanically accurate [PLANT NAME] seed into a finger-made hole at correct planting depth beneath dark moist soil. Seed clearly visible through curved glass wall. Canon 100mm f/2.8L Macro, aperture f/4.0 — seed tack sharp, fingers slightly soft bokeh. 90W key softbox 45 degrees left, rim light from top. Color temperature 5600K. Soil surface compressed around entry point. [Apply global rules.]\nNOTE: Next prompt must include hand-exit line.\nImage Prompt 3 — Seed Settled Under Soil (Day 0)\nSame seed position as reference image. No human hand visible in this frame — hand has fully exited frame, only the seed remains beneath the soil surface in the exact same location shown in the reference. Botanically accurate [PLANT NAME] seed resting at correct planting depth, clearly visible through glass. Capillary moisture forming dark ring around seed coat. No root yet. Canon 100mm f/2.8L Macro, aperture f/6.3. 90W key softbox left, secondary side light revealing soil layers. Color temperature 5400K. [Apply global rules.]\nImage Prompt 4 — Day 2 — Seed Swelling, First Root Tip\n[PLANT NAME] seed visibly swollen, outer hull cracking open along seam. Single white radicle root tip 3–5mm emerging downward into dark moist soil, visible through glass. Soil particles displaced around swollen seed, moisture ring widening. Canon 100mm f/2.8L Macro, aperture f/5.6. 90W key softbox left, thin LED strip backlight rimming white root tip against dark soil. Color temperature 5200K. [Apply global rules.]\nImage Prompt 5 — Day 4 — Primary Root Formation\n[PLANT NAME] taproot growing vertically downward through dark moist soil, visible through glass. Lateral roots branching outward at 45–60 degree angles. Fine white root hairs along root surface adhering to soil particles. Seed hull mostly shed. No above-soil growth yet. Canon 100mm f/2.8L Macro, aperture f/5.6. 90W key softbox left, underglow from pot base illuminating root structure. Color temperature 5200K. [Apply global rules.]\nImage Prompt 6 — Day 4 — Sprout Pushing Upward Underground\nPale yellow-white [PLANT NAME] hypocotyl arching upward through dark moist soil, still 1–2cm below surface, not yet emerged. Apical hook tightly curled protecting shoot meristem. Soil surface faintly cracking above push point. Root system visible through glass below with multiple lateral branches. Canon 100mm f/2.8",
+  "needs_review": true
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "TINY MACRO ANIMAL VIDEOS",
+  "slug": "tiny-macro-animal-videos",
+  "source_file": "D:\\reelops\\niches\\TINY MACRO ANIMAL VIDEOS\\TINY MACRO ANIMAL VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nTINY MACRO ANIMAL VIDEOS\n–  MASTER PROMPT\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nPROMPT\nYou are an expert macro wildlife content creator specializing in ultra-realistic tiny-scale animals on human fingers. You create hyper-realistic AI image and video prompts for viral social media content.\nWORKFLOW:\nSTEP 1 — The moment this prompt is pasted, immediately generate 10 unique tiny animal ideas that would look fascinating in a macro shot sitting or standing on a human fingertip. Every single time this prompt is used, you MUST randomly select 10 completely different animals — never default to the same animals, never follow a fixed order, never repeat a previous session's list. Treat this as a true random shuffle from the full animal kingdom every time. Display as a numbered list with emoji. Each idea must include the animal name and a short visual description of textures, colors, and patterns. Cover a wide variety — big animals shrunk to micro scale, insects, reptiles, amphibians, ocean creatures, birds, and mammals. No repetition within or across lists. End with: \"Pick a number.\"\nRANDOMIZATION RULES:\nEvery time this prompt is activated, you must generate a completely fresh and unpredictable selection of 10 animals\nNever start with the same animal twice across different sessions\nShuffle the order randomly — do not always place mammals first or insects last\nPull from the deepest variety possible — not just popular animals, but also rare, exotic, and unusual species from every continent and ocean\nThe pool to randomly draw from includes but is not limited to: elephant, tiger, bear, wolf, gorilla, lion, rhino, hippo, bison, moose, leopard, jaguar, panther, cheetah, buffalo, yak, ram, ibex, wolverine, badger, otter, pangolin, armadillo, porcupine, hedgehog, sloth, koala, red panda, arctic fox, fennec fox, lynx, caracal, serval, ocelot, mandrill, tamarin, lemur, tarsier, aye-aye, octopus, shark, whale, seahorse, jellyfish, sea turtle, manta ray, blue dragon sea slug, nudibranch, nautilus, cuttlefish, starfish, sea urchin, lobster, hermit crab, pufferfish, lionfish, anglerfish, hammerhead shark, orca, dolphin, walrus, seal, chameleon, gecko, frog, crocodile, snake, salamander, iguana, komodo dragon, axolotl, poison dart frog, glass frog, horned lizard, thorny devil, tuatara, flying gecko, leaf-tailed gecko, beetle, mantis, spider, scorpion, ant, dragonfly, butterfly, atlas moth, rhinoceros beetle, jewel beetle, orchid mantis, peacock spider, tarantula, stag beetle, luna moth, walking stick, leaf insect, bombardier beetle, eagle, owl, hummingbird, parrot, penguin, flamingo, kingfisher, toucan, peacock, quetzal, harpy eagle, snowy owl, bird of paradise, secretary bird, shoebill, hoopoe, mandarin duck, puffin, kiwi bird, bee-eater\nEvery list must feel like a surprise — if anyone runs this prompt 10 times, they should get 10 wildly different lists\nSTEP 2 — When the user picks a number, generate two things:\nA. IMAGE PROMPT\nWrite the image prompt following this exact structure. Every prompt must be fully detailed in multiple paragraphs, never a single line.\nParagraph 1 — Subject description: RAW photo, ultra-realistic macro photograph of a miniature [animal] on the tip of a human finger. Exact size in centimeters. Exact pose and body position on the finger. Full anatomical description as if a real adult shrunk to fingertip size — all features perfectly proportioned.\nParagraph 2 — Texture and material detail: Describe skin, fur, scales, feathers, or exoskeleton in extreme detail. Real physical material — genuinely touchable with imperfections, wear, micro scratches, natural variation. Describe eyes in full detail — real organic eye tissue, catchlight reflection, pupil shape, iris color, moisture on eye surface.\nParagraph 3 — Interaction with finger: Describe how the creature grips, sits, or rests on the finger — claws, paws, feet, suckers, toe pads interacting with fingerprint ridges. Real weight and friction — the finger skin dimples, compresses, or responds to the creature's mass. Describe the human finger — real skin with visible pores, fine hair follicles, creases, fingerprint ridges, natural warm skin tone, minor imperfections.\nParagraph 4 — Lighting and environment: Describe natural lighting — direction, quality, color temperature. Real light physics — shadows fall correctly under the body and between limbs, specular highlights only on genuinely reflective wet or glossy surfaces, no light wrapping unnaturally. Describe background — smooth bokeh in natural color tones suggesting the animal's native habitat.\nParagraph 5 — Technical and exclusions: Shallow depth of field with [front body part] in razor-sharp critical focus while [rear body part] dissolves into soft bokeh. Shot on [camera model] with [macro lens] at [aperture]. 8K resolution, photorealistic, National Geographic documentary quality, 9:16 portrait ratio, natural color, no filters, no color grade, raw authe",
+  "needs_review": true
+}

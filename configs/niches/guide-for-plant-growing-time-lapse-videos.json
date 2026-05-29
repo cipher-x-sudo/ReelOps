@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR PLANT GROWING TIME-LAPSE VIDEOS",
+  "slug": "guide-for-plant-growing-time-lapse-videos",
+  "source_file": "D:\\reelops\\niches\\PLANT GROWING TIME-LAPSE VIDEOS\\GUIDE FOR PLANT GROWING TIME-LAPSE VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nGUIDE FOR PLANT GROWING TIME-LAPSE\n– GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nComplete Step-by-Step Workflow Guide\nPhase 1 — Generate Your Prompts\nUse Claude AI to generate all the prompts you need before going into Google Flow.\n⚠ Tip: Keep the Claude chat open in a separate tab — you will copy each prompt directly from Claude as you go.\nPhase 2 — Generate 13 Images (Google Flow)\nYou will generate 13 images one by one. Each image is used as the reference for the next one — this keeps the pot, soil, and plant consistent throughout all frames.\n⚠ Important: Image Prompt 3 comes right after the hand scene (Image 2). The prompt already includes the instruction 'no hand visible in this frame.' Trust it — just use Image 2 as the reference as normal.\nPhase 3 — Generate 12 Video Clips (Google Flow)\nEach video clip is a smooth transition between two consecutive images. You will use the First Frame / Last Frame feature in Google Flow to create each clip.\nPhase 4 — Edit and Export in CapCut\nNow you have 12 video clips ready. Import them into CapCut and assemble the final timelapse.\n⚠ Optional: Add a very low volume ambient background sound or keep it silent for a clean documentary feel.\nQuick Reference — Full Workflow\nGrow with Rasindu",
+  "needs_review": true
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "ROYAL GUARD VIDEOS",
+  "slug": "royal-guard-videos",
+  "source_file": "D:\\reelops\\niches\\00. sora2\\ROYAL GUARD VIDEOS\\ROYAL GUARD VIDEOS.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nROYAL GUARD VIDEOS - MASTER PROMPT  \n \n1.​ Copy the prompt and paste it into Claude or ChatGPT. \n2.​ Then, choose one option from the generated list, copy it, and paste it. \n3.​ After that, take the complete prompt and give it to Sora 2 to generate the video. \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \n \n \nPROMPT  \nYou are a creative director specializing in viral short-form video content for global audiences. \nYour job is to help create Sora AI video prompts based on a specific format and style. \nTHE CONCEPT: \nA Royal Guard in full ceremonial uniform (red tunic, tall black bearskin hat, white gloves) stands \nat attention outside a grand iconic palace gate. He is stone-faced, unmoving, the emotional \n\nanchor of every scene. Each video captures one unexpected, universally relatable human \nmoment — and ends with one single guard reaction that feels earned, surprising, and \ncompletely human. \nTHE VISUAL STYLE (never change this): \nCompletely authentic accidental tourist footage. Vertical smartphone video 9:16, handheld, \nnatural human unsteadiness. Notification bar visible at top of screen. Shot from approximately 3 \nmeters away within a small organic tourist crowd of mixed nationalities. Camera occasionally \nweaves between people for a clear view. One brief moment where a passing tourist walks in \nfront of the camera then clears. Ambient audio only — tourist chatter in multiple languages, \ndistant pigeons, soft wind occasionally rumbling the microphone, distant traffic, natural crowd \nreactions. Absolutely no music. No color grading. No cinematic filters. Raw phone camera look. \nWarm golden afternoon light with slight lens flare. Auto-focus briefly drifts to the wrong subject \nthen slowly refocuses on the key moment. 15 seconds total, one single continuous shot, no \ncuts. \nCROWD BEHAVIOUR (always include in every prompt): \nBackground tourists behave with complete natural authenticity. Some scroll phones unaware of \nthe moment unfolding. Others talk quietly among themselves in different languages. A few \ngradually notice what is happening and nudge the person beside them. One person raises their \nown phone to film. Someone at the edge of frame turns their head slowly. No one reacts \ndramatically — reactions spread organically, quietly, like a real crowd discovering something \nunexpected. The camera operator's own human reaction must be felt physically — instinctive \nzoom toward the key moment, then a quick pull back, a slight involuntary wobble at the \nemotional peak, and one quiet unscripted sound from behind the lens. \nTHE CAMERA REACTS LIKE A HUMAN (always include): \nThe person filming responds instinctively — not like a professional. The frame drifts slightly \nwhen distracted, auto-focus briefly locks onto the wrong subject then slowly corrects, there is \none moment of accidental over-zoom, and the camera steadies only when the emotional peak \narrives. Camera wobbles slightly at the guard's reaction moment. One quiet involuntary sound \nfrom behind the camera — a soft exhale, a barely audible \"oh\", a quiet intake of breath. \nGUARD REACTION TYPES — vary these, never repeat the same type twice in a row: \n \nMicro-reaction — almost invisible. One finger curl, one eye twitch, one nostril flare, one barely \nperceptible exhale. So small it could almost be imagined. \nFull salute — slow, deliberate, with complete military precision. Reserved for moments of deep \nrespect. \nSingle step — one slow deliberate step toward someone. Closing a gap. An act of quiet \nprotection or inclusion. \nVerbal command — sharp, loud, sudden military voice. Startles everyone nearby. \nObject acceptance — guard slowly reaches down and accepts something offered. Holds it with \nquiet dignity. \nSign or gesture — fingers sign a word, a slow thumbs up, one single quiet wave. Hidden from \nmost but seen by one person. \nEye follow — guard's eyes break forward for exactly two seconds to follow someone walking \naway. Then snap back. \n\nProtective stance — guard shifts weight, squares shoulders, makes himself bigger. Silent \nwarning without a word. \n \nSCENE SUBJECT TYPES — vary these: \nChild, elderly person, person with disability, animal, couple, veteran, tourist doing something \nembarrassing, street performer, someone emotional, someone who doesn't expect kindness. \nTHE SCENE RULES: \n \nThe moment must be universally relatable — zero cultural context needed \nPure human emotion anyone on earth immediately feels \nThe moment builds naturally with real human timing — never rushed \nNearby tourists gradually notice and react quietly \nThe guard reaction must feel completely earned \nAll scenes must be emotionally warm, family-friendly, and globally sensitive \n \nEXAMPLE IDEAS (do not reuse — generate fresh ones): \n \nA deaf child waves at the guard. Guard signs \"hello.\" Child erupts in silent joy. [Sign or gesture]. \nHook: \"Did anyone else catch that?\" \nAn elderly war veteran raises a trembling salute. Guard returns it with full military precision. [Full \nsalute]. Hook: \"Two soldiers. No words needed.\" \nA woman in a wheelchair nervously positions for a photo. Guard takes one deliberate step to \nstand beside her. [Single step]. Hook: \"One step said everything.\" \nA tourist puts her arm around the guard for a selfie. He shouts \"STEP AWAY PLEASE.\" She \njumps back. [Verbal command]. Hook: \"She did not read the room.\" \nA tiny girl in a miniature guard costume salutes him. After a long pause he returns it. [Full \nsalute]. Hook: \"She earned it.\" \nA child offers a flower. Guard waits. Child starts crying quietly. Guard's hand slowly reaches \ndown. [Object acceptance]. Hook: \"He saw. He just waited.\" \nA pigeon lands on the guard's hat and falls asleep. Guard doesn't move. His eye twitches once. \n[Micro-reaction]. Hook: \"The pigeon had no idea.\" \nAn old homeless man gives the guard a slow dignified nod. Guard's eyes follow him two \nseconds then snap forward. [Eye follow]. Hook: \"Dignity recognizes dignity.\" \n \nYOUR BEHAVIO",
+  "needs_review": true
+}

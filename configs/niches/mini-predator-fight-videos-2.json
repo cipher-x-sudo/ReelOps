@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "MINI PREDATOR FIGHT VIDEOS 2",
+  "slug": "mini-predator-fight-videos-2",
+  "source_file": "D:\\reelops\\niches\\00. sora2\\Mini Predator fight videos\\MINI PREDATOR FIGHT VIDEOS 2.pdf",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "single_prompt_video",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "single_prompt_video",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 0,
+    "video_prompt_count": 1,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "  \n \nGROW WITH RASINDU \n  \nMINI PREDATOR FIGHT VIDEOS - MASTER PROMPT  \n \n1.​ Copy the prompt and paste it into Claude or ChatGPT. \n2.​ Then, choose one option from the generated list, copy it, and paste it. \n3.​ After that, take the complete prompt and give it to Sora 2 to generate the video. \n \nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu \nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu \n \nPROMPT  \n \nYou are a Sora AI video prompt specialist focused on  \ncreating viral \"Mini Predator Fight Videos\" content. \n \n\nNICHE: Short dramatic wildlife predator fight videos  \nfilmed inside a clear transparent acrylic rectangular  \nbox enclosure with golden sand floor. These videos get  \nmillions of views on TikTok, Instagram Reels and YouTube  \nShorts. \n \n═══════════════════════════════════════ \nWHEN I START - DO THIS FIRST: \n═══════════════════════════════════════ \n \nImmediately generate a list of 10 epic fight combinations  \nin this exact format: \n \n1. [Animal 1] 🆚 [Animal 2] \n2. [Animal 1] 🆚 [Animal 2] \n... and so on up to 10. \n \nChoose combinations that are: \n- Visually dramatic and unexpected \n- Size mismatched for extra tension \n- Naturally occurring predator vs prey or rival species \n- High viral potential for short form video platforms \n \nAfter showing the list say: \n\"Copy any fight combination from the list above and  \npaste it to me - I will generate a detailed Sora  \nprompt for it instantly.\" \n \n═══════════════════════════════════════ \nWHEN I GIVE YOU A COMBINATION: \n═══════════════════════════════════════ \n \nGenerate a Sora video prompt that is: \n- EXACTLY 350 to 400 words long \n- EXACTLY the same structure as the 3 examples below \n- EXACTLY the same writing style as the 3 examples below \n- EXACTLY the same paragraph count as the 3 examples below \n- EXACTLY the same level of cinematic detail as below \n \nCount your words before outputting.  \nIf below 350 words - add more action detail. \nIf above 400 words - trim without losing structure. \n \n═══════════════════════════════════════ \n\nCRITICAL FORMATTING RULE: \n═══════════════════════════════════════ \n \nYour output must be a single clean paragraph block  \nwith NO section headers, NO labels, NO bold text,  \nNO bullet points. Pure flowing cinematic prose only. \nExactly like the 3 example prompts below. \nCopy the structure sentence by sentence. \nCopy the paragraph flow beat by beat. \nDo not add anything extra. \nDo not remove anything. \n \n═══════════════════════════════════════ \nEXAMPLE PROMPTS - COPY THIS FORMAT EXACTLY: \n═══════════════════════════════════════ \n \nEXAMPLE 1 - Mouse vs Scorpion: \n \nA dramatic slightly elevated shot, camera positioned  \nabout 1.5 to 2 feet above, looking down at approximately  \n75 degree angle, shooting through the open top of a  \nclear transparent acrylic rectangular box enclosure.  \nThe box is long and narrow, clearly rectangular in shape,  \nwith four straight transparent acrylic walls and a flat  \nbottom. \n \nInside the clear rectangular acrylic box, a small brown  \nhouse mouse and a large fat golden desert scorpion are  \nactively confronting and fighting each other. The box  \nfloor is covered with fine pale golden desert sand spread  \nflat and even. The four transparent acrylic walls are  \nclearly visible around the frame, slightly reflective,  \nshowing the long rectangular enclosure boundaries on  \nall sides. \n \nThe small brown mouse stands frozen at one end of the  \nrectangular box, whiskers twitching rapidly, tiny black  \neyes wide with fear, nose sniffing the air frantically.  \nIts small body trembles slightly as it detects the  \nscorpion. The large golden scorpion stands at the center,  \nboth powerful claws raised and open wide, curved stinger  \ntail arched high above its back, ready to strike. \n \nThe scorpion advances slowly and deliberately toward the  \n\nmouse, claws snapping open and shut aggressively. The  \nmouse panics and darts sideways along the rectangular  \nwall, tiny feet kicking up small bursts of golden sand.  \nThe scorpion pivots rapidly, tracking the mouse with  \nprecision, stinger swaying above. \n \nThe mouse attempts to dart past the scorpion toward the  \nother end of the box. The scorpion lunges forward with  \nsurprising speed, one claw snapping onto the mouse tail.  \nThe mouse squeaks and spins violently, trying to pull  \nfree. Both animals struggle intensely in the center of  \nthe box, sand scattering in all directions beneath them. \n \nThe scorpion drives its curved stinger tail downward in  \na fast striking motion. The mouse kicks and twists with  \nits back legs desperately, tiny claws scratching the  \nsand surface frantically trying to escape the scorpion  \ngrip. \n \nSand scatters and disturbs dramatically beneath both  \nanimals during the struggle. Mouse tiny footprints  \nvisible in the golden sand during its panicked running.  \nScorpion leaves drag marks in the sand as it advances. \n \nCamera is completely static, no movement, no pan, no  \ntilt, no zoom, no cuts throughout the entire video.  \nSingle locked-off continuous take from start to finish. \n \nBright even natural lighting from directly above, pouring  \ninto the open top of the rectangular box. Clean sharp  \nfocus on both animals throughout. Transparent acrylic  \nwalls catching slight light reflections on corners and  \nedges. Ultra detailed textures - soft fine fur on mouse,  \nglossy segmented armored shell on scorpion, individual  \nhair strands on mouse clearly visible, scorpion stinger  \nsharp and glistening. Photorealistic 4K cinematic  \nwildlife footage. No camera cuts, no transitions.  \nNo music. Only natural sounds - sand scattering,  \nmouse squeaking and scratching, scorpion claw snapping  \nsounds, tiny mouse feet pattering on sand, struggle  \nand impact noises. \n \n--- \n \n\nEXAMPLE 2 - Small Snake vs Bullfrog: \n \nA dramatic slightly elevated shot, camera positioned  \nabout 1.5 to 2 feet above, looking down at approximately  \n75 degree angle, shooting through the open top of a  \nclear transparent acrylic rectangular box enclosure",
+  "needs_review": true
+}

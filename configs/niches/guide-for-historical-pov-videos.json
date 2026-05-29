@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "GUIDE FOR HISTORICAL POV VIDEOS",
+  "slug": "guide-for-historical-pov-videos",
+  "source_file": "D:\\reelops\\niches\\HISTORICAL POV VIDEOS\\GUIDE FOR HISTORICAL POV VIDEOS.docx",
+  "defaults": {
+    "language": "English",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+    ],
+    "duration_policy": "per_niche",
+    "render_template": "guided_scene_pack",
+    "caption_output": [
+      "burned_in",
+      "srt",
+      "vtt"
+    ],
+    "asset_selection": "manual_with_ai_suggestions",
+    "quality_mode": "draft_then_final"
+  },
+  "workflow": {
+    "type": "guided_scene_pack",
+    "steps": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "voiceover",
+      "render",
+      "export"
+    ],
+    "image_prompt_count": 6,
+    "video_prompt_count": 6,
+    "approval_points": [
+      "topic",
+      "script",
+      "prompts",
+      "asset_selection",
+      "render"
+    ]
+  },
+  "providers": {
+    "prompt": "configured",
+    "image_video": "flow2api",
+    "tts": "configured_or_upload",
+    "renderer": "remotion"
+  },
+  "preserved_instructions_excerpt": "GROW WITH RASINDU\nHISTORICAL POV VIDEOS  – GUIDE\nJOIN OUR TELEGRAM CHANNEL👉 GrowWithRasindu\nJOIN OUR WHATSAPP CHANNEL👉 GrowWithRasindu\nJoin my community to get future prompts and complete step-by-step guides\n👉 nas.io/growwithrasindu\nThis guide is written in simple English.If you prefer to read this in your own language,copy this entire guide and paste it into ChatGPT.Then type: \"Translate this into [your language]\"and it will give you the full guide in your language.\nමෙම මාර්ගෝපදේශය සරල ඉංග්‍රීසියෙන් ලියා ඇත.ඔබට ඔබේ භාෂාවෙන් කියවීමට අවශ්‍ය නම්,\nමෙම සම්පූර්ණ මාර්ගෝපදේශය copy කර ChatGPT වෙත paste කරන්න.එවිට මෙසේ type කරන්න: \"Translate this into Sinhala\"එවිට ඔබට සිංහල භාෂාවෙන් සම්පූර්ණ මාර්ගෝපදේශය ලැබෙනු ඇත.\nयह गाइड सरल अंग्रेजी में लिखी गई है।अगर आप इसे अपनी भाषा में पढ़ना चाहते हैं,तो इस पूरी गाइड को copy करके ChatGPT में paste करें।फिर टाइप करें: \"Translate this into Hindi\"और आपको पूरी गाइड हिंदी में मिल जाएगी।\nهذا الدليل مكتوب باللغة الإنجليزية البسيطة.\nإذا كنت تفضل قراءته بلغتك الخاصة،\nانسخ هذا الدليل كاملاً والصقه في ChatGPT.\nثم اكتب: \"Translate this into Arabic\"\nوستحصل على الدليل كاملاً باللغة العربية.\nStep 1 — Copy the Master Prompt\nCopy the full Master Prompt that was given to you. Open claude.ai and start a new chat. Paste the Master Prompt into the chat and press Enter. Claude will automatically generate a numbered list of 10 random historical locations and eras for you to choose from.\nStep 2 — Choose Your Topic\nLook at the list Claude gives you. Type the number of the location and era that interests you most. Example: type \"3\" and Claude will immediately generate 10 VEO 3.1 optimized video prompts for that location. If you do not like any of the options in the list, type \"NEW\" and Claude will give you a completely fresh list of 10 different locations.\nStep 3 — Copy Your Video Prompts\nClaude will generate 10 separate video prompts numbered 1 to 10. Each prompt is a complete VEO 3.1 ready description of one video clip. Copy each prompt one at a time. You will use these prompts one by one in the next step to generate your video clips.\nStep 4 — Generate Your Video Clips in Google Flow\nOpen Google Flow at flow.google.com. Make sure you are using the VEO 3.1 model. Set the aspect ratio to 9:16 vertical. Set the clip duration to 8 seconds. Paste your first prompt into the prompt field and click Generate. Wait for the clip to generate. Then paste your second prompt and generate. Repeat this process for all 10 prompts one by one. Each prompt will produce one 8 second video clip.\nStep 5 — Review and Download Your Best Clips\nAfter generating all 10 clips watch each one carefully. Select the clips that look the most realistic and visually interesting. Avoid any clips that look like CGI, animation, or cartoons — if a clip does not look like real raw footage simply skip it and regenerate that prompt. Download all your selected clips to your device.\nStep 6 — Edit in CapCut\nOpen CapCut on your phone or computer. Start a new project and import all your downloaded video clips. Arrange the clips in order on the timeline. Make sure your total video length is between 60 and 80 seconds for best Facebook Reel performance. Do not add heavy filters or color grading — keep the raw footage feel. Add your title text at the beginning — example: POV: ANCIENT ROME — 100 AD. You can add subtle captions between clips to give historical context if you want. Export your final video at 1080 x 1920 resolution in MP4 format.\nStep 7 — Post to Facebook Reels\nOpen Facebook on your phone. Tap the Reels tab and upload your exported video. Write a short caption that creates curiosity — example: \"What it felt like to walk through Ancient Rome 2000 years ago.\" Set your audience to Public for maximum reach. Post it and watch the views come in.\nQuick Tips\nIf a generated clip looks too cinematic or artificial, regenerate it. The best clips are the ones that feel genuinely raw and real. Always keep your total Reel between 60 and 80 seconds — this is the sweet spot for Facebook algorithm performance. If you want a completely different historical topic at any time, just go back to Claude and type NEW.",
+  "needs_review": true
+}
